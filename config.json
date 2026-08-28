@@ -54,8 +54,8 @@
       "nombre": "Copa Libertadores",
       "tipo": "grupos_llave",
       "codigo": "conmebol.libertadores",
-      "verificado": false,
-      "activa": false,
+      "verificado": true,
+      "activa": true,
       "_pendiente": "Código tentativo. Activar solo si Estudiantes está participando."
     },
     {
