@@ -35,9 +35,11 @@
     "_uso": "Una clave por competencia (el id de config.json). Lo que pongas pisa esa parte; lo que no pongas queda como lo trajo ESPN.",
 
     "copa-argentina": {
-      "nombre": "Copa Argentina",
-      "tipo": "eliminacion",
-      "llave": []
+          "instancia": "Cuartos de final",
+          "rival": null,
+          "rivalTexto": "A definir",
+          "fechaHora": "2026-09-10T22:00:00Z",
+          "estado": "pendiente"
     },
 
     "_ejemplo_llave": [
