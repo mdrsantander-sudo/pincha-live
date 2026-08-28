@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-28T03:14:50.295Z",
+  "actualizado": "2026-08-28T03:16:46.789Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -950,7 +950,7 @@
         {
           "instancia": "Cuartos de final",
           "rival": null,
-          "rivalTexto": "Rival: Platense",
+          "rivalTexto": "Platense",
           "fechaHora": null,
           "estado": "pendiente"
         }
