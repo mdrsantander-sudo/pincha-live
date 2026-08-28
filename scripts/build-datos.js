@@ -17,7 +17,7 @@ const path = require('path');
 const RAIZ = path.join(__dirname, '..');
 const CONFIG = leerJson(path.join(RAIZ, 'config.json'));
 const FINALES = leerJson(path.join(RAIZ, 'finales.json')) || [];
-const MANUAL = limpiar(leerJson(path.join(RAIZ, 'manual.json')) || {});
+const MANUAL = limpiar(leerJsonEstricto(path.join(RAIZ, 'manual.json')));
 const SALIDA = path.join(RAIZ, 'public', 'datos.json');
 const PREVIO = leerJson(SALIDA) || {};
 const DRY = process.argv.includes('--dry');
@@ -36,6 +36,21 @@ function limpiar(v) {
     return o;
   }
   return v;
+}
+
+/** manual.json y finales.json los edita una persona: si quedan mal, hay que gritar,
+    no seguir como si nada. Un JSON roto acá pasaría totalmente desapercibido. */
+function leerJsonEstricto(p) {
+  if (!fs.existsSync(p)) return {};
+  try {
+    return JSON.parse(fs.readFileSync(p, 'utf8'));
+  } catch (e) {
+    console.error(`\nERROR: ${path.basename(p)} tiene un problema de formato y no se puede leer.`);
+    console.error(`Detalle: ${e.message}`);
+    console.error('Suele ser una coma de más antes de un } o un ], o una comilla sin cerrar.');
+    console.error('Podés pegar el archivo en jsonlint.com para ver la línea exacta.\n');
+    process.exit(1);
+  }
 }
 
 function leerJson(p) {
@@ -112,11 +127,26 @@ function normalizarEvento(ev, comp) {
   };
 }
 
+const INSTANCIAS = [
+  [/1st leg|first leg/i, 'Ida'], [/2nd leg|second leg/i, 'Vuelta'],
+  [/round of 32|32avos/i, '32avos'], [/round of 16|16avos/i, 'Octavos'],
+  [/quarter[- ]?final/i, 'Cuartos de final'], [/semi[- ]?final/i, 'Semifinal'],
+  [/3rd place|third place/i, 'Tercer puesto'], [/final/i, 'Final'],
+  [/group stage|group/i, 'Fase de grupos'], [/play[- ]?off/i, 'Playoff'],
+  [/preliminary|qualifying/i, 'Fase previa'], [/matchday|round/i, 'Fecha']
+];
+
+function traducirInstancia(t) {
+  if (!t) return t;
+  for (const [re, es] of INSTANCIAS) if (re.test(t)) return es;
+  return t;
+}
+
 function instanciaDe(ev, c) {
   const nota = c?.notes?.find(n => n.headline)?.headline;
-  if (nota) return nota;
+  if (nota) return traducirInstancia(nota);
   const slug = ev.season?.slug || '';
-  if (/final|semi|quarter|round/i.test(slug)) return slug.replace(/-/g, ' ');
+  if (/final|semi|quarter|round/i.test(slug)) return traducirInstancia(slug.replace(/-/g, ' '));
   return null;
 }
 
@@ -172,7 +202,16 @@ async function tablasDe(comp) {
     })
     .filter(Boolean);
 
-  return tablas.length ? tablas : null;
+  if (!tablas.length) return null;
+
+  // En copas por grupos solo interesa el grupo de Estudiantes, no los otros siete.
+  if (comp.tipo === 'grupos_llave') {
+    const nuestro = tablas.find(t => t.filas.some(f => f.equipoId === String(ID)));
+    if (nuestro) return [{ ...nuestro, titulo: 'Grupo de Estudiantes', destacado: CONFIG.equipo.nombre }];
+    return null;
+  }
+
+  return tablas;
 }
 
 /** Tabla anual: ESPN no la publica, se suma Apertura + Clausura. */
