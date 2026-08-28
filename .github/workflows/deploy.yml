@@ -1,6 +1,7 @@
 name: Publicar en Pages
 
-on:  workflow_run:
+on: 
+  workflow_run:
     workflows: ["Actualizar datos"]
     types: [completed]
   push:
