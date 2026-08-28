@@ -203,7 +203,13 @@ async function tablaAnual(comp) {
 // -------------------------------------------------------------------- llave
 
 function llaveDe(eventos) {
-  return eventos.map(ev => ({
+  const ahora = Date.now();
+  // Solo lo que viene: los partidos ya jugados no se muestran.
+  const proximos = eventos.filter(ev =>
+    ev.estado !== 'jugado' && ev.estado !== 'cancelado' &&
+    new Date(ev.fechaHora).getTime() > ahora - 3 * 3600e3);
+
+  return proximos.map(ev => ({
     instancia: ev.instancia || 'Fase',
     rival: ev.rival,
     rivalTexto: ev.rival ? null : 'A definir',
@@ -359,7 +365,10 @@ async function main() {
       salida.llave = llaveDe(eventos);
     }
     if (!salida.tablas.length && !salida.llave?.length) {
-      salida.mensajeVacio = `${comp.nombre}: todavía sin fixture publicado`;
+      const jugoAlgo = eventos.some(e => e.estado === 'jugado');
+      salida.mensajeVacio = jugoAlgo
+        ? `${comp.nombre}: no quedan partidos por jugar.`
+        : `${comp.nombre}: todavía sin fixture publicado.`;
     }
     competencias.push(salida);
   }
