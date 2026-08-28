@@ -1,6 +1,8 @@
 name: Publicar en Pages
 
-on:
+on:  workflow_run:
+    workflows: ["Actualizar datos"]
+    types: [completed]
   push:
     branches: [main]
     paths: ['public/**', '.github/workflows/deploy.yml']
