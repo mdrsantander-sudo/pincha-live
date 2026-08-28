@@ -45,6 +45,7 @@
       "nombre": "Copa Argentina",
       "tipo": "eliminacion",
       "codigo": "arg.copa",
+      "nota": "Partido único en cancha neutral. El que pierde queda afuera.",
       "verificado": true,
       "activa": true,
       "_pendiente": "Código tentativo. Correr validar-endpoints.js. Alternativas si falla: arg.copa_argentina, arg.copa_arg."
