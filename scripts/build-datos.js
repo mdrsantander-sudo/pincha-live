@@ -388,7 +388,15 @@ async function main() {
 
     const salida = { id: comp.id, nombre: comp.nombre, tipo: comp.tipo, tablas: [], llave: null };
 
-    if (comp.tipo === 'liga_zonas' || comp.tipo === 'grupos_llave') {
+    // Próximo partido de esta competencia (lo usa la tarjeta del Home).
+    const ahoraMs = Date.now();
+    salida.proximo = eventos.find(e =>
+      ['programado', 'postergado', 'suspendido'].includes(e.estado) &&
+      new Date(e.fechaHora).getTime() > ahoraMs) || null;
+
+    // En las copas por grupos no mostramos la tabla: la fase de grupos ya pasó
+    // y lo único que interesa son los partidos que vienen.
+    if (comp.tipo === 'liga_zonas') {
       const tablas = await tablasDe(comp);
       const prev = (PREVIO.competencias || []).find(c => c.id === comp.id);
       salida.tablas = tablas || prev?.tablas || [];
