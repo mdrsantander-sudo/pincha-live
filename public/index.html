@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Pincha Live</title>
-<meta name="description" content="Próximo partido, resultado y tablas de Estudiantes de La Plata.">
-<meta name="theme-color" content="#141416">
+<title>Información Pincha</title>
+<meta name="description" content="Próximo partido, tablas y torneos de Estudiantes de La Plata.">
+<meta name="theme-color" content="#C8102E">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Pincha Live">
+<meta name="apple-mobile-web-app-title" content="Info Pincha">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="iconos/icono-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,29 +18,22 @@
 </head>
 <body>
 
-<header class="barra">
-  <span class="marca">PINCHA<span class="marca-live">LIVE</span></span>
-  <span class="frescura" id="frescura"></span>
-</header>
-
 <main id="pantalla-home">
+
+  <!-- Encabezado: solo el título de la app -->
+  <section class="hero" id="hero">
+    <h1 class="hero-titulo">Información Pincha<span>para Jorge y Laura</span></h1>
+  </section>
 
   <div class="aviso-global" id="aviso-global" hidden></div>
 
-  <!-- 1. Próximo partido / en vivo -->
-  <section class="destacado" id="destacado" aria-live="polite">
-    <div class="cargando">Cargando…</div>
+  <!-- Torneo Clausura: próximo partido -->
+  <section class="bloque">
+    <h2 class="rotulo" id="titulo-liga">Torneo Clausura</h2>
+    <div id="proximo-liga"></div>
   </section>
 
-  <!-- 2. Finales pendientes -->
-  <section class="finales" id="finales" hidden>
-    <h2 class="rotulo">Finales pendientes</h2>
-    <div class="finales-tira" id="finales-tira"></div>
-  </section>
-
-  <div class="divisor"></div>
-
-  <!-- 3. Tabla del torneo principal -->
+  <!-- Tabla del torneo argentino -->
   <section class="tabla-seccion" id="tabla-seccion">
     <div class="tabla-cabecera">
       <h2 class="rotulo" id="tabla-titulo">Posiciones</h2>
@@ -51,10 +44,13 @@
 
   <div class="divisor"></div>
 
-  <!-- 4. Último resultado -->
-  <section class="ultimo" id="ultimo"></section>
+  <!-- Finales pendientes -->
+  <section class="finales" id="finales" hidden>
+    <h2 class="rotulo">Finales pendientes</h2>
+    <div class="finales-tira" id="finales-tira"></div>
+  </section>
 
-  <!-- 5. Accesos a competencias -->
+  <!-- Resto de las competencias -->
   <section class="accesos" id="accesos"></section>
 
 </main>
