@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-28T02:44:11.260Z",
+  "actualizado": "2026-08-28T02:58:59.819Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -922,7 +922,24 @@
           ]
         }
       ],
-      "llave": null
+      "llave": null,
+      "proximo": {
+        "id": "401841530",
+        "competencia": "Liga Profesional",
+        "competenciaId": "liga",
+        "instancia": null,
+        "rival": "Newell's Old Boys",
+        "rivalTexto": null,
+        "rivalEscudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+        "fechaHora": "2026-08-31T22:00Z",
+        "estadio": "Estadio Jorge Luis Hirschi",
+        "condicion": "local",
+        "estado": "programado",
+        "golesEstudiantes": 0,
+        "golesRival": 0,
+        "minuto": "0'",
+        "periodo": "Scheduled"
+      }
     },
     {
       "id": "copa-argentina",
@@ -930,6 +947,7 @@
       "tipo": "eliminacion",
       "tablas": [],
       "llave": [],
+      "proximo": null,
       "mensajeVacio": "Copa Argentina: no quedan partidos por jugar.",
       "instancia": "Cuartos de final",
       "rival": null,
@@ -942,70 +960,7 @@
       "id": "libertadores",
       "nombre": "Copa Libertadores",
       "tipo": "grupos_llave",
-      "tablas": [
-        {
-          "titulo": "Grupo de Estudiantes",
-          "destacado": "Estudiantes LP",
-          "filas": [
-            {
-              "pos": 1,
-              "equipo": "Flamengo",
-              "equipoId": "819",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-              "pj": 6,
-              "g": 5,
-              "e": 1,
-              "p": 0,
-              "gf": 14,
-              "gc": 2,
-              "dg": 12,
-              "pts": 16
-            },
-            {
-              "pos": 2,
-              "equipo": "Estudiantes de La Plata",
-              "equipoId": "8",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-              "pj": 6,
-              "g": 2,
-              "e": 3,
-              "p": 1,
-              "gf": 6,
-              "gc": 5,
-              "dg": 1,
-              "pts": 9
-            },
-            {
-              "pos": 3,
-              "equipo": "Independiente Medellín",
-              "equipoId": "2690",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
-              "pj": 6,
-              "g": 2,
-              "e": 1,
-              "p": 3,
-              "gf": 6,
-              "gc": 11,
-              "dg": -5,
-              "pts": 7
-            },
-            {
-              "pos": 4,
-              "equipo": "Cusco FC",
-              "equipoId": "11995",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
-              "pj": 6,
-              "g": 0,
-              "e": 1,
-              "p": 5,
-              "gf": 4,
-              "gc": 12,
-              "dg": -8,
-              "pts": 1
-            }
-          ]
-        }
-      ],
+      "tablas": [],
       "llave": [
         {
           "instancia": "Ida",
@@ -1023,7 +978,24 @@
           "resultado": null,
           "estado": "pendiente"
         }
-      ]
+      ],
+      "proximo": {
+        "id": "401912541",
+        "competencia": "Copa Libertadores",
+        "competenciaId": "libertadores",
+        "instancia": "Ida",
+        "rival": "Corinthians",
+        "rivalTexto": null,
+        "rivalEscudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+        "fechaHora": "2026-09-10T00:30Z",
+        "estadio": "Estadio Jorge Luis Hirschi",
+        "condicion": "local",
+        "estado": "programado",
+        "golesEstudiantes": 0,
+        "golesRival": 0,
+        "minuto": "0'",
+        "periodo": "Scheduled"
+      }
     },
     {
       "id": "supercopa-internacional",
