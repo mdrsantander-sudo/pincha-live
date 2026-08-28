@@ -296,6 +296,7 @@ function detalleHTML(c) {
   }
 
   const partes = [];
+  if (c.nota) partes.push(`<p class="nota-comp">${c.nota}</p>`);
   for (const t of (c.tablas || [])) {
     partes.push(`<h2 class="rotulo" style="margin:16px 0 8px">${t.titulo}</h2>` +
       tablaHTML(t, DATOS.equipo.id, true));
