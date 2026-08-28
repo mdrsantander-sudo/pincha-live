@@ -283,8 +283,8 @@ function detectarFaltantes(datos) {
     if (c.tipo === 'final_unica') continue;
     if (c.manual) continue;
     const vacia = !c.tablas?.length && !c.llave?.length;
-    if (vacia && !c.mensajeVacio)
-      f.push(`"${c.nombre}" quedó sin tabla ni llave. Cargala en manual.json → competencias → "${c.id}".`);
+    if (vacia)
+      f.push(`"${c.nombre}" quedó sin partidos por jugar. Si todavía sigue en carrera, cargá la próxima ronda en manual.json → competencias → "${c.id}".`);
   }
 
   const liga = datos.competencias.find(c => c.id === CONFIG.torneoPrincipal);
