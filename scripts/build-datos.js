@@ -387,6 +387,7 @@ async function main() {
     todos = todos.concat(eventos);
 
     const salida = { id: comp.id, nombre: comp.nombre, tipo: comp.tipo, tablas: [], llave: null };
+    if (comp.nota) salida.nota = comp.nota;
 
     // Próximo partido de esta competencia (lo usa la tarjeta del Home).
     const ahoraMs = Date.now();
