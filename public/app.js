@@ -92,6 +92,7 @@ function pintarDestacado() {
   else if (p.reprogramadaDesde) aviso = `Reprogramada desde el ${p.reprogramadaDesde.split('-').reverse().slice(0, 2).join('/')}`;
 
   caja.innerHTML = `
+    <img class="escudo-fondo" src="${DATOS.equipo.escudo}" alt="">
     <div class="contexto">${contexto || 'Próximo partido'}</div>
     <div class="rival">vs ${rival}</div>
     <div class="cuando">${cuando(p)}</div>
@@ -127,6 +128,7 @@ function pintarEnVivo(caja, v) {
   const gi = local ? v.golesEstudiantes : v.golesRival;
   const gd = local ? v.golesRival : v.golesEstudiantes;
   caja.innerHTML = `
+    <img class="escudo-fondo" src="${DATOS.equipo.escudo}" alt="">
     <div class="vivo-etiqueta"><i class="vivo-punto"></i>EN VIVO</div>
     <div class="contexto">${[v.competencia, v.instancia].filter(Boolean).join(' · ')}</div>
     <div class="marcador">
@@ -344,7 +346,17 @@ function pintarAviso() {
   ].join('');
 }
 
+function pintarEscudos() {
+  const url = DATOS.equipo?.escudo;
+  if (!url) return;
+  const marca = document.querySelector('.marca');
+  if (marca && !marca.querySelector('.escudo-barra')) {
+    marca.insertAdjacentHTML('afterbegin', `<img class="escudo-barra" src="${url}" alt="">`);
+  }
+}
+
 function pintarTodo() {
+  pintarEscudos();
   pintarAviso();
   pintarDestacado();
   pintarFinales();
