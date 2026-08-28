@@ -218,6 +218,12 @@ table.posiciones{
 .ficha-final .dato span:last-child{text-align:right;font-weight:500}
 .ficha-final .nota{margin-top:10px;font-size:13px;color:var(--gris);line-height:1.45}
 
+.nota-comp{
+  background:var(--blanco);border:1px solid var(--gris-linea);
+  border-left:3px solid var(--gris);border-radius:2px;
+  padding:11px 13px;margin-bottom:4px;font-size:13px;color:#4A4A50;line-height:1.5;
+}
+
 .vacio{
   background:var(--blanco);border:1px dashed var(--gris-linea);
   padding:22px 16px;text-align:center;color:var(--gris);font-size:14px;border-radius:2px;
