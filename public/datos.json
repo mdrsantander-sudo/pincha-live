@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-28T02:24:44.709Z",
+  "actualizado": "2026-08-28T02:27:18.479Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -931,6 +931,11 @@
       "tablas": [],
       "llave": [],
       "mensajeVacio": "Copa Argentina: no quedan partidos por jugar.",
+      "instancia": "Cuartos de final",
+      "rival": null,
+      "rivalTexto": "A definir",
+      "fechaHora": "2026-09-10T22:00:00Z",
+      "estado": "pendiente",
       "manual": true
     },
     {
