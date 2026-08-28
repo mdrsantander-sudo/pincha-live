@@ -1,0 +1,67 @@
+{
+  "_como_funciona": "Todo lo que cargues acá le gana a ESPN. Lo que dejes en null o vacío, lo maneja el script solo. Editás, guardás, subís: en 10 minutos está en la app.",
+
+  "aviso": null,
+  "_aviso": "Texto que aparece arriba de todo, en ámbar. Ej: 'Partido del domingo postergado por lluvia'. Poner null cuando no haga falta.",
+
+  "proximoPartido": null,
+  "_proximoPartido": {
+    "_uso": "Solo si ESPN no lo tiene o lo tiene mal. Copiá este bloque afuera del guion bajo y completalo.",
+    "competencia": "Copa Argentina",
+    "instancia": "Cuartos de final",
+    "rival": null,
+    "rivalTexto": "A definir (ganador de Vélez–Tigre)",
+    "fechaHora": "2026-08-27T22:15:00Z",
+    "fecha": "2026-08-27",
+    "horarioConfirmado": true,
+    "estadio": "Estadio Único",
+    "sedeTexto": null,
+    "condicion": "neutral",
+    "estado": "programado"
+  },
+
+  "ultimoPartido": null,
+  "_ultimoPartido": {
+    "_uso": "Solo si ESPN no cargó el resultado. Se borra cuando ESPN lo tenga.",
+    "competencia": "Liga Profesional",
+    "rival": "Central Córdoba",
+    "golesEstudiantes": 5,
+    "golesRival": 0,
+    "resultado": "victoria",
+    "fecha": "2026-08-20T20:00:00Z"
+  },
+
+  "competencias": {
+    "_uso": "Una clave por competencia (el id de config.json). Lo que pongas pisa esa parte; lo que no pongas queda como lo trajo ESPN.",
+
+    "copa-argentina": {
+      "nombre": "Copa Argentina",
+      "tipo": "eliminacion",
+      "llave": []
+    },
+
+    "_ejemplo_llave": [
+      { "instancia": "Octavos", "rival": "Boca", "resultado": "2-1", "estado": "jugado" },
+      { "instancia": "Cuartos de final", "rival": null, "rivalTexto": "A definir (ganador de Vélez–Tigre)", "fechaHora": "2026-08-27T22:15:00Z", "estado": "pendiente" }
+    ],
+
+    "_ejemplo_tabla": {
+      "tablas": [
+        {
+          "titulo": "Tabla anual",
+          "destacado": "Estudiantes LP",
+          "filas": [
+            { "pos": 1, "equipo": "Rosario Central", "equipoId": "17", "pj": 20, "g": 12, "e": 5, "p": 3, "gf": 30, "gc": 15, "dg": 15, "pts": 41 },
+            { "pos": 3, "equipo": "Estudiantes LP", "equipoId": "8", "pj": 20, "g": 10, "e": 6, "p": 4, "gf": 28, "gc": 18, "dg": 10, "pts": 36 }
+          ]
+        }
+      ]
+    },
+
+    "_ejemplo_sin_arrancar": {
+      "nombre": "Copa Libertadores",
+      "tipo": "grupos_llave",
+      "mensajeVacio": "Arranca en febrero. Todavía no hay grupos sorteados."
+    }
+  }
+}

@@ -1,0 +1,242 @@
+:root{
+  --rojo:#C8102E;
+  --carbon:#141416;
+  --blanco:#FFFFFF;
+  --gris:#8A8A8E;
+  --gris-linea:#E4E4E7;
+  --verde:#1E9E5A;
+  --ambar:#E0A800;
+  --fondo:#FAFAFA;
+  --display:"Archivo Narrow","Arial Narrow",Impact,system-ui,sans-serif;
+  --texto:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  font-family:var(--texto);
+  background:var(--fondo);
+  color:var(--carbon);
+  font-size:16px;
+  line-height:1.4;
+  padding-bottom:env(safe-area-inset-bottom);
+  -webkit-font-smoothing:antialiased;
+}
+main{max-width:560px;margin:0 auto;padding:0 16px}
+:focus-visible{outline:3px solid var(--rojo);outline-offset:2px;border-radius:2px}
+
+/* ---------- barra superior ---------- */
+.barra{
+  display:flex;align-items:center;justify-content:space-between;
+  max-width:560px;margin:0 auto;padding:14px 16px 10px;
+}
+.marca{font-family:var(--display);font-weight:700;font-size:20px;letter-spacing:.06em}
+.marca-live{color:var(--rojo);margin-left:2px}
+.frescura{font-size:12px;color:var(--gris);font-variant-numeric:tabular-nums}
+.frescura.demorado{color:var(--ambar);font-weight:600}
+
+.aviso-global{
+  background:#FFF8E1;border-left:3px solid var(--ambar);
+  padding:11px 13px;margin-bottom:12px;border-radius:2px;
+  font-size:14px;font-weight:500;color:#6B5200;
+}
+
+.aviso-faltantes{margin-top:6px;font-size:12px;font-weight:400}
+.aviso-faltantes ul{margin:4px 0 0 16px}
+.aviso-faltantes li{margin-bottom:3px}
+
+/* ---------- bloque destacado (próximo partido / en vivo) ---------- */
+.destacado{
+  position:relative;overflow:hidden;
+  background:var(--carbon);color:var(--blanco);
+  border-radius:2px;padding:20px 18px;
+  animation:entra .35s ease-out;
+}
+/* la franja diagonal del escudo, usada como marco del marcador */
+.destacado::before{
+  content:"";position:absolute;inset:-20% auto -20% -6%;
+  width:26%;background:var(--rojo);
+  transform:skewX(-16deg);opacity:.92;
+}
+.destacado::after{
+  content:"";position:absolute;inset:-20% -8% -20% auto;
+  width:8%;background:var(--rojo);
+  transform:skewX(-16deg);opacity:.35;
+}
+.destacado > *{position:relative;z-index:1}
+@keyframes entra{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.destacado{animation:none}}
+
+.destacado .contexto{
+  font-family:var(--display);font-size:13px;letter-spacing:.12em;
+  text-transform:uppercase;color:#D6D6DA;margin-bottom:10px;
+}
+.destacado .rival{font-family:var(--display);font-weight:700;font-size:32px;line-height:1.05}
+.destacado .cuando{margin-top:8px;font-size:15px;font-weight:500}
+.destacado .donde{margin-top:2px;font-size:13px;color:#B9B9C0}
+.destacado .aviso{margin-top:10px;font-size:13px;color:var(--ambar);font-weight:600}
+
+.regresiva{
+  margin-top:14px;display:inline-flex;gap:14px;
+  font-family:var(--display);font-variant-numeric:tabular-nums;
+}
+.regresiva div{text-align:center}
+.regresiva b{display:block;font-size:26px;font-weight:700;line-height:1}
+.regresiva span{font-size:10px;letter-spacing:.14em;color:#B9B9C0}
+
+/* marcador en vivo */
+.vivo-etiqueta{
+  display:inline-flex;align-items:center;gap:6px;
+  background:var(--verde);color:#fff;font-size:11px;font-weight:700;
+  letter-spacing:.1em;padding:3px 8px;border-radius:2px;margin-bottom:10px;
+}
+.vivo-punto{width:7px;height:7px;border-radius:50%;background:#fff;animation:latido 1.4s infinite}
+@keyframes latido{0%,100%{opacity:1}50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.vivo-punto{animation:none}}
+.marcador{display:flex;align-items:center;gap:14px;margin-top:4px}
+.marcador .cifras{
+  font-family:var(--display);font-weight:700;font-size:52px;line-height:1;
+  font-variant-numeric:tabular-nums;
+}
+.marcador .equipos{font-family:var(--display);font-size:19px;line-height:1.15}
+.marcador .minuto{margin-left:auto;font-size:14px;color:#D6D6DA;font-variant-numeric:tabular-nums}
+
+.cargando{color:#B9B9C0;font-size:15px}
+
+/* ---------- finales pendientes ---------- */
+.rotulo{
+  font-family:var(--display);font-size:12px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--gris);font-weight:600;
+}
+.finales{margin-top:18px}
+.finales-tira{display:flex;gap:8px;margin-top:8px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}
+.finales-tira::-webkit-scrollbar{display:none}
+.final-chip{
+  flex:1 0 47%;min-width:160px;background:var(--blanco);
+  border:1px solid var(--gris-linea);border-left:3px solid var(--rojo);
+  border-radius:2px;padding:9px 11px;
+}
+.final-chip .n{font-family:var(--display);font-size:14px;font-weight:700;line-height:1.15}
+.final-chip .r{font-size:13px;color:var(--carbon);margin-top:2px}
+.final-chip .f{font-size:12px;color:var(--gris);margin-top:2px;font-variant-numeric:tabular-nums}
+.final-chip .nota{font-size:11px;color:var(--ambar);margin-top:2px}
+
+/* ---------- divisor con la diagonal ---------- */
+.divisor{
+  height:8px;margin:20px 0;
+  background:repeating-linear-gradient(115deg,var(--rojo) 0 3px,transparent 3px 11px);
+  opacity:.55;
+}
+
+/* ---------- tablas ---------- */
+.tabla-cabecera{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
+.selector{display:flex;gap:4px;background:#EFEFF1;padding:3px;border-radius:2px}
+.selector button{
+  font:inherit;font-size:12px;font-weight:600;border:0;background:transparent;
+  color:var(--gris);padding:5px 10px;border-radius:2px;cursor:pointer;
+}
+.selector button[aria-selected="true"]{background:var(--blanco);color:var(--carbon);box-shadow:0 1px 2px rgba(0,0,0,.12)}
+
+table.posiciones{
+  width:100%;border-collapse:collapse;background:var(--blanco);
+  border:1px solid var(--gris-linea);
+  font-variant-numeric:tabular-nums;
+}
+.posiciones th{
+  font-family:var(--display);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--gris);font-weight:600;text-align:right;padding:8px 6px;
+  border-bottom:1px solid var(--gris-linea);
+}
+.posiciones th.eq,.posiciones td.eq{text-align:left}
+.posiciones th.pos,.posiciones td.pos{text-align:center;width:26px}
+.posiciones td{padding:9px 6px;text-align:right;font-size:14px;border-bottom:1px solid #F2F2F4}
+.posiciones tr:last-child td{border-bottom:0}
+.posiciones td.eq{font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:0;width:99%}
+.posiciones td.pos{color:var(--gris);font-size:13px}
+.posiciones td.pts{font-weight:700}
+.posiciones tr.destacada{background:#FFF3F5;box-shadow:inset 3px 0 0 var(--rojo)}
+.posiciones tr.destacada td{font-weight:600}
+.posiciones tr.corte td{border-bottom:1px dashed var(--gris-linea)}
+.escudo{width:16px;height:16px;vertical-align:-3px;margin-right:6px;object-fit:contain}
+
+.ver-completa{
+  display:block;width:100%;margin-top:8px;padding:10px;
+  font:inherit;font-size:13px;font-weight:600;color:var(--carbon);
+  background:var(--blanco);border:1px solid var(--gris-linea);border-radius:2px;cursor:pointer;
+}
+.ver-completa:active{background:#F2F2F4}
+
+/* ---------- último resultado ---------- */
+.ultimo{display:flex;align-items:center;gap:12px;padding:2px 0}
+.ultimo .pill{
+  font-family:var(--display);font-weight:700;font-size:20px;
+  padding:6px 10px;border-radius:2px;color:#fff;font-variant-numeric:tabular-nums;
+}
+.pill.victoria{background:var(--verde)}
+.pill.derrota{background:var(--rojo)}
+.pill.empate{background:var(--gris)}
+.ultimo .detalle .r{font-weight:600;font-size:15px}
+.ultimo .detalle .c{font-size:12px;color:var(--gris)}
+
+/* ---------- accesos / tabs ---------- */
+.accesos{display:grid;gap:8px;margin-top:22px}
+.acceso{
+  display:flex;align-items:center;justify-content:space-between;
+  width:100%;padding:13px 14px;font:inherit;font-size:15px;font-weight:500;
+  background:var(--blanco);border:1px solid var(--gris-linea);border-radius:2px;
+  cursor:pointer;text-align:left;
+}
+.acceso .sub{font-size:12px;color:var(--gris);font-weight:400}
+.acceso .flecha{color:var(--rojo);font-weight:700}
+
+.tabs{display:flex;gap:6px;overflow-x:auto;margin:6px 0 16px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tabs button{
+  white-space:nowrap;font:inherit;font-size:13px;font-weight:600;
+  padding:8px 12px;border:1px solid var(--gris-linea);background:var(--blanco);
+  color:var(--gris);border-radius:2px;cursor:pointer;
+}
+.tabs button[aria-selected="true"]{background:var(--carbon);color:#fff;border-color:var(--carbon)}
+.volver{
+  font:inherit;font-size:14px;font-weight:600;background:none;border:0;
+  color:var(--rojo);padding:12px 0;cursor:pointer;
+}
+
+/* ---------- llave / final única ---------- */
+.serie{
+  display:flex;align-items:center;gap:10px;background:var(--blanco);
+  border:1px solid var(--gris-linea);border-left:3px solid var(--gris-linea);
+  padding:11px 13px;margin-bottom:8px;border-radius:2px;
+}
+.serie.jugada{border-left-color:var(--carbon)}
+.serie.pendiente{border-left-color:var(--rojo)}
+.serie .instancia{font-family:var(--display);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--gris)}
+.serie .rival{font-weight:600;font-size:15px}
+.serie .marcador-chico{margin-left:auto;font-family:var(--display);font-weight:700;font-size:20px;font-variant-numeric:tabular-nums}
+.serie .fecha{margin-left:auto;font-size:12px;color:var(--gris);text-align:right;font-variant-numeric:tabular-nums}
+
+.ficha-final{background:var(--blanco);border:1px solid var(--gris-linea);border-top:3px solid var(--rojo);padding:16px;border-radius:2px}
+.ficha-final h3{font-family:var(--display);font-size:22px;font-weight:700}
+.ficha-final .dato{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid #F2F2F4;font-size:14px}
+.ficha-final .dato:last-of-type{border-bottom:0}
+.ficha-final .dato span:first-child{color:var(--gris)}
+.ficha-final .dato span:last-child{text-align:right;font-weight:500}
+.ficha-final .nota{margin-top:10px;font-size:13px;color:var(--gris);line-height:1.45}
+
+.vacio{
+  background:var(--blanco);border:1px dashed var(--gris-linea);
+  padding:22px 16px;text-align:center;color:var(--gris);font-size:14px;border-radius:2px;
+}
+
+/* ---------- pie ---------- */
+.pie{
+  max-width:560px;margin:28px auto 0;padding:16px;
+  display:flex;flex-direction:column;gap:4px;
+  font-size:11px;color:var(--gris);border-top:1px solid var(--gris-linea);
+}
+.pie .demorado{color:var(--ambar);font-weight:600}
+
+@media (max-width:360px){
+  .destacado .rival{font-size:27px}
+  .marcador .cifras{font-size:44px}
+}

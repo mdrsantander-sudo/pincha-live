@@ -1,0 +1,100 @@
+{
+  "_para_que_sirve": "Datos inventados para probar los estados que rompen las apps. Se abre con index.html?demo=1",
+  "actualizado": "2026-08-23T15:10:00Z",
+  "equipo": { "id": "8", "nombre": "Estudiantes LP", "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png" },
+  "proximoPartido": {
+    "competencia": "Copa Argentina",
+    "competenciaId": "copa-argentina",
+    "instancia": "Cuartos de final",
+    "rival": null,
+    "rivalTexto": "A definir (ganador de Vélez–Tigre)",
+    "fechaHora": "2026-08-24T22:15:00Z",
+    "fecha": "2026-08-24",
+    "estadio": "Estadio Único Madre de Ciudades",
+    "condicion": "neutral",
+    "estado": "programado",
+    "horarioConfirmado": true
+  },
+  "ultimoPartido": {
+    "competencia": "Liga Profesional",
+    "rival": "Central Córdoba",
+    "golesEstudiantes": 5,
+    "golesRival": 0,
+    "resultado": "victoria",
+    "fecha": "2026-08-20T20:00:00Z"
+  },
+  "enVivo": null,
+  "torneoPrincipal": "liga",
+  "finalesPendientes": [
+    {
+      "id": "supercopa-internacional", "nombre": "Supercopa Internacional", "rival": "Rosario Central",
+      "fechaHora": "2026-09-26T15:00:00Z", "fecha": "2026-09-26", "horarioConfirmado": false,
+      "sedeTexto": "Cancha neutral, sede a confirmar", "estado": "programado", "reprogramadaDesde": null
+    },
+    {
+      "id": "supercopa-argentina", "nombre": "Supercopa Argentina", "rival": "Independiente Rivadavia",
+      "fechaHora": "2026-11-11T15:00:00Z", "fecha": "2026-11-11", "horarioConfirmado": false,
+      "sedeTexto": "Sede tentativa: Belgrano de Córdoba, sin confirmar", "estado": "reprogramado",
+      "reprogramadaDesde": "2026-07-21"
+    }
+  ],
+  "competencias": [
+    {
+      "id": "liga", "nombre": "Liga Profesional", "tipo": "liga_zonas",
+      "tablas": [
+        {
+          "titulo": "Zona A", "destacado": "Estudiantes LP",
+          "filas": [
+            { "pos": 1, "equipo": "Instituto", "equipoId": "2975", "pj": 5, "g": 4, "e": 0, "p": 1, "gf": 5, "gc": 2, "dg": 3, "pts": 12 },
+            { "pos": 5, "equipo": "Defensa y Justicia", "equipoId": "8950", "pj": 5, "g": 2, "e": 2, "p": 1, "gf": 6, "gc": 7, "dg": -1, "pts": 8 },
+            { "pos": 6, "equipo": "Newell's", "equipoId": "14", "pj": 5, "g": 2, "e": 1, "p": 2, "gf": 6, "gc": 5, "dg": 1, "pts": 7 },
+            { "pos": 7, "equipo": "Estudiantes LP", "equipoId": "8", "pj": 5, "g": 2, "e": 0, "p": 3, "gf": 7, "gc": 5, "dg": 2, "pts": 6 },
+            { "pos": 8, "equipo": "Riestra", "equipoId": "17702", "pj": 5, "g": 2, "e": 0, "p": 3, "gf": 6, "gc": 5, "dg": 1, "pts": 6 },
+            { "pos": 9, "equipo": "Lanús", "equipoId": "12", "pj": 5, "g": 2, "e": 0, "p": 3, "gf": 6, "gc": 6, "dg": 0, "pts": 6 }
+          ]
+        },
+        {
+          "titulo": "Tabla anual", "destacado": "Estudiantes LP",
+          "filas": [
+            { "pos": 1, "equipo": "Rosario Central", "equipoId": "17", "pj": 20, "g": 12, "e": 5, "p": 3, "gf": 30, "gc": 15, "dg": 15, "pts": 41 },
+            { "pos": 3, "equipo": "Estudiantes LP", "equipoId": "8", "pj": 20, "g": 10, "e": 6, "p": 4, "gf": 28, "gc": 18, "dg": 10, "pts": 36 },
+            { "pos": 4, "equipo": "Boca", "equipoId": "5", "pj": 20, "g": 9, "e": 8, "p": 3, "gf": 25, "gc": 17, "dg": 8, "pts": 35 }
+          ]
+        }
+      ],
+      "llave": null
+    },
+    {
+      "id": "copa-argentina", "nombre": "Copa Argentina", "tipo": "eliminacion", "tablas": [],
+      "llave": [
+        { "instancia": "32avos", "rival": "Deportivo Madryn", "resultado": "3-0", "estado": "jugado" },
+        { "instancia": "16avos", "rival": "Gimnasia LP", "resultado": "1-0", "estado": "jugado" },
+        { "instancia": "Octavos", "rival": "Boca", "resultado": "2-1", "estado": "jugado" },
+        { "instancia": "Cuartos de final", "rival": null, "rivalTexto": "A definir (ganador de Vélez–Tigre)", "fechaHora": "2026-08-24T22:15:00Z", "resultado": null, "estado": "pendiente" }
+      ]
+    },
+    {
+      "id": "libertadores", "nombre": "Copa Libertadores", "tipo": "grupos_llave", "tablas": [], "llave": null,
+      "mensajeVacio": "Arranca en febrero. Todavía no hay grupos sorteados."
+    },
+    {
+      "id": "supercopa-internacional", "nombre": "Supercopa Internacional", "tipo": "final_unica", "tablas": [], "llave": null,
+      "final": {
+        "rival": "Rosario Central", "fechaHora": "2026-09-26T15:00:00Z", "fecha": "2026-09-26",
+        "horarioConfirmado": false, "sedeTexto": "Cancha neutral, sede a confirmar",
+        "estado": "programado", "reprogramadaDesde": null, "resultado": null,
+        "nota": "Estudiantes entra por el Trofeo de Campeones; Central, por la tabla anual 2025."
+      }
+    },
+    {
+      "id": "supercopa-argentina", "nombre": "Supercopa Argentina", "tipo": "final_unica", "tablas": [], "llave": null,
+      "final": {
+        "rival": "Independiente Rivadavia", "fechaHora": "2026-11-11T15:00:00Z", "fecha": "2026-11-11",
+        "horarioConfirmado": false, "sedeTexto": "Sede tentativa: Belgrano de Córdoba, sin confirmar",
+        "estado": "reprogramado", "reprogramadaDesde": "2026-07-21", "resultado": null,
+        "nota": "La sede puede cambiar por la visita del Papa a Córdoba esa semana."
+      }
+    }
+  ],
+  "errores": []
+}

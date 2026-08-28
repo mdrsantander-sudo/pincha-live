@@ -1,0 +1,36 @@
+[
+  {
+    "id": "supercopa-internacional",
+    "nombre": "Supercopa Internacional",
+    "tipo": "final_unica",
+    "rival": "Rosario Central",
+    "rivalEscudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+    "fechaHora": "2026-09-26T15:00:00Z",
+    "horarioConfirmado": false,
+    "sede": null,
+    "sedeTexto": "Cancha neutral, sede a confirmar",
+    "estado": "programado",
+    "reprogramadaDesde": null,
+    "resultado": null,
+    "nota": "Estudiantes entra por el Trofeo de Campeones; Central, por la tabla anual 2025. Se descartó jugarla afuera; suenan San Nicolás y el Madre de Ciudades.",
+    "fecha": "2026-09-26",
+    "_nota_fecha": "fechaHora es un placeholder al mediodia UTC solo para ordenar. Sin horario confirmado la app muestra el campo fecha, que no se convierte de zona."
+  },
+  {
+    "id": "supercopa-argentina",
+    "nombre": "Supercopa Argentina",
+    "tipo": "final_unica",
+    "rival": "Independiente Rivadavia",
+    "rivalEscudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+    "fechaHora": "2026-11-11T15:00:00Z",
+    "horarioConfirmado": false,
+    "sede": null,
+    "sedeTexto": "Sede tentativa: Belgrano de Córdoba, sin confirmar",
+    "estado": "reprogramado",
+    "reprogramadaDesde": "2026-07-21",
+    "resultado": null,
+    "nota": "Estudiantes entra por el título de liga; Independiente Rivadavia, por la Copa Argentina 2025. La sede puede cambiar por la visita del Papa a Córdoba esa semana.",
+    "fecha": "2026-11-11",
+    "_nota_fecha": "fechaHora es un placeholder al mediodia UTC solo para ordenar. Sin horario confirmado la app muestra el campo fecha, que no se convierte de zona."
+  }
+]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pincha Live</title>
+<meta name="description" content="Próximo partido, resultado y tablas de Estudiantes de La Plata.">
+<meta name="theme-color" content="#141416">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Pincha Live">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="iconos/icono-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="barra">
+  <span class="marca">PINCHA<span class="marca-live">LIVE</span></span>
+  <span class="frescura" id="frescura"></span>
+</header>
+
+<main id="pantalla-home">
+
+  <div class="aviso-global" id="aviso-global" hidden></div>
+
+  <!-- 1. Próximo partido / en vivo -->
+  <section class="destacado" id="destacado" aria-live="polite">
+    <div class="cargando">Cargando…</div>
+  </section>
+
+  <!-- 2. Finales pendientes -->
+  <section class="finales" id="finales" hidden>
+    <h2 class="rotulo">Finales pendientes</h2>
+    <div class="finales-tira" id="finales-tira"></div>
+  </section>
+
+  <div class="divisor"></div>
+
+  <!-- 3. Tabla del torneo principal -->
+  <section class="tabla-seccion" id="tabla-seccion">
+    <div class="tabla-cabecera">
+      <h2 class="rotulo" id="tabla-titulo">Posiciones</h2>
+      <div class="selector" id="selector-tablas" role="tablist"></div>
+    </div>
+    <div id="tabla-contenedor"></div>
+  </section>
+
+  <div class="divisor"></div>
+
+  <!-- 4. Último resultado -->
+  <section class="ultimo" id="ultimo"></section>
+
+  <!-- 5. Accesos a competencias -->
+  <section class="accesos" id="accesos"></section>
+
+</main>
+
+<!-- Vista de competencia -->
+<main id="pantalla-competencia" hidden>
+  <button class="volver" id="volver">← Volver</button>
+  <div class="tabs" id="tabs-competencias" role="tablist"></div>
+  <div id="detalle-competencia"></div>
+</main>
+
+<footer class="pie">
+  <span id="pie-actualizado"></span>
+  <span class="pie-fuente">Datos de ESPN · proyecto de hincha, sin fines comerciales</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
