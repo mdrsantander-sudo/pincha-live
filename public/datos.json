@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-28T01:58:54.629Z",
+  "actualizado": "2026-08-28T02:17:15.613Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -930,6 +930,7 @@
       "tipo": "eliminacion",
       "tablas": [],
       "llave": [],
+      "mensajeVacio": "Copa Argentina: no quedan partidos por jugar.",
       "manual": true
     },
     {
@@ -1435,22 +1436,6 @@
         }
       ],
       "llave": [
-        {
-          "instancia": "1st Leg",
-          "rival": "Universidad Católica",
-          "rivalTexto": null,
-          "fechaHora": "2026-08-12T00:30Z",
-          "resultado": "1-1",
-          "estado": "jugado"
-        },
-        {
-          "instancia": "2nd Leg - Estudiantes de La Plata win 4-1 on aggregate",
-          "rival": "Universidad Católica",
-          "rivalTexto": null,
-          "fechaHora": "2026-08-19T00:30Z",
-          "resultado": "3-0",
-          "estado": "jugado"
-        },
         {
           "instancia": "1st Leg",
           "rival": "Corinthians",
