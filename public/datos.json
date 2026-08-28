@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-28T03:07:57.490Z",
+  "actualizado": "2026-08-28T03:10:48.901Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -980,6 +980,7 @@
           "estado": "pendiente"
         }
       ],
+      "nota": "Llave a doble partido: ida y vuelta. Pasa el que suma más goles entre los dos.",
       "proximo": {
         "id": "401912541",
         "competencia": "Copa Libertadores",
