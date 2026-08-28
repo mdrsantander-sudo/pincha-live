@@ -349,7 +349,6 @@ function pintarTodo() {
   pintarDestacado();
   pintarFinales();
   pintarTablaHome();
-  pintarUltimo();
   pintarAccesos();
   pintarFrescura();
 }
