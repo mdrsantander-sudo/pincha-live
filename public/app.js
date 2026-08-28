@@ -64,41 +64,73 @@ function haceCuanto(iso) {
   return { texto: `actualizado hace ${hs} h`, viejo: min > 120 };
 }
 
-// ---------------------------------------------------------------- destacado
+// ------------------------------------------------------------- encabezado
 
-function pintarDestacado() {
-  const caja = $('#destacado');
+function pintarHero() {
+  const url = DATOS.equipo?.escudo;
+  const hero = $('#hero');
+  if (url && !hero.querySelector('.escudo-hero')) {
+    hero.insertAdjacentHTML('afterbegin', `<img class="escudo-hero" src="${url}" alt="">`);
+  }
+}
+
+function pintarAviso() {
+  const caja = $('#aviso-global');
+  const faltan = (DATOS.faltantes || []).length;
+  if (!DATOS.aviso && !faltan) { caja.hidden = true; return; }
+  caja.hidden = false;
+  caja.innerHTML = [
+    DATOS.aviso ? `<div>${DATOS.aviso}</div>` : '',
+    // El detalle técnico solo se ve con ?admin=1: al hincha no le interesa.
+    faltan && params.get('admin')
+      ? `<div class="aviso-faltantes"><b>Falta cargar a mano</b><ul>${
+          DATOS.faltantes.map(x => `<li>${x}</li>`).join('')}</ul></div>`
+      : ''
+  ].join('');
+}
+
+// -------------------------------------------------- próximo partido (liga)
+
+function pintarProximoLiga() {
+  const caja = $('#proximo-liga');
   clearInterval(timerRegresiva);
 
-  if (DATOS.enVivo) return pintarEnVivo(caja, DATOS.enVivo);
+  const comp = DATOS.competencias.find(c => c.id === DATOS.torneoPrincipal);
+  $('#titulo-liga').textContent = comp ? comp.nombre : 'Próximo partido';
 
-  const p = DATOS.proximoPartido;
+  const vivo = DATOS.enVivo;
+  if (vivo && (!vivo.competenciaId || vivo.competenciaId === DATOS.torneoPrincipal)) {
+    return pintarEnVivo(caja, vivo);
+  }
+
+  const p = comp?.proximo
+    || (DATOS.proximoPartido?.competenciaId === DATOS.torneoPrincipal ? DATOS.proximoPartido : null);
+
   if (!p) {
-    caja.innerHTML = `<div class="contexto">Próximo partido</div>
+    caja.innerHTML = `<div class="partido">
+      <div class="contexto">Próximo partido</div>
       <div class="rival">Sin fecha confirmada</div>
-      <div class="donde">Todavía no hay fixture publicado.</div>`;
+      <div class="donde">Todavía no hay fixture publicado.</div></div>`;
     return;
   }
 
   const rival = p.rival || p.rivalTexto || 'Rival a definir';
-  const contexto = [p.competencia, p.instancia].filter(Boolean).join(' · ');
   const lugar = p.estadio || p.sedeTexto || (p.condicion === 'neutral' ? 'Cancha neutral' : null);
-  const condicion = p.condicion === 'local' ? 'De local' : p.condicion === 'visitante' ? 'De visitante' : 'Cancha neutral';
+  const condicion = p.condicion === 'local' ? 'De local'
+    : p.condicion === 'visitante' ? 'De visitante' : 'Cancha neutral';
   const horaOk = p.horarioConfirmado !== false;
 
   let aviso = '';
   if (p.estado === 'suspendido') aviso = 'Partido suspendido';
   else if (p.estado === 'postergado') aviso = 'Partido postergado, sin nueva fecha';
-  else if (p.reprogramadaDesde) aviso = `Reprogramada desde el ${p.reprogramadaDesde.split('-').reverse().slice(0, 2).join('/')}`;
 
-  caja.innerHTML = `
-    <img class="escudo-fondo" src="${DATOS.equipo.escudo}" alt="">
-    <div class="contexto">${contexto || 'Próximo partido'}</div>
+  caja.innerHTML = `<div class="partido">
+    <div class="contexto">${p.instancia || 'Próximo partido'}</div>
     <div class="rival">vs ${rival}</div>
     <div class="cuando">${cuando(p)}</div>
     <div class="donde">${[lugar, condicion].filter(Boolean).join(' · ')}</div>
     ${aviso ? `<div class="aviso">${aviso}</div>` : ''}
-    <div id="regresiva"></div>`;
+    <div id="regresiva"></div></div>`;
 
   if (horaOk && p.estado !== 'suspendido' && p.estado !== 'postergado') iniciarRegresiva(p.fechaHora);
 }
@@ -110,11 +142,11 @@ function iniciarRegresiva(iso) {
     if (falta <= 0 || falta > 48 * 3600e3) { caja.innerHTML = ''; return; }
     const h = Math.floor(falta / 3600e3);
     const m = Math.floor(falta % 3600e3 / 60000);
-    const s = Math.floor(falta % 60000 / 1000);
+    const sg = Math.floor(falta % 60000 / 1000);
     caja.innerHTML = `<div class="regresiva">
       <div><b>${h}</b><span>HORAS</span></div>
       <div><b>${String(m).padStart(2, '0')}</b><span>MIN</span></div>
-      <div><b>${String(s).padStart(2, '0')}</b><span>SEG</span></div></div>`;
+      <div><b>${String(sg).padStart(2, '0')}</b><span>SEG</span></div></div>`;
   };
   tick();
   timerRegresiva = setInterval(tick, 1000);
@@ -127,24 +159,21 @@ function pintarEnVivo(caja, v) {
   const der = local ? rival : 'Estudiantes';
   const gi = local ? v.golesEstudiantes : v.golesRival;
   const gd = local ? v.golesRival : v.golesEstudiantes;
-  caja.innerHTML = `
-    <img class="escudo-fondo" src="${DATOS.equipo.escudo}" alt="">
+  caja.innerHTML = `<div class="partido vivo">
     <div class="vivo-etiqueta"><i class="vivo-punto"></i>EN VIVO</div>
-    <div class="contexto">${[v.competencia, v.instancia].filter(Boolean).join(' · ')}</div>
     <div class="marcador">
       <div class="cifras">${gi ?? 0}–${gd ?? 0}</div>
       <div class="equipos">${izq}<br>${der}</div>
       <div class="minuto">${v.minuto || ''}</div>
     </div>
-    ${DATOS.avisoDemora ? '<div class="aviso">Puede haber demora de algunos minutos</div>' : ''}`;
+    ${DATOS.avisoDemora ? '<div class="aviso">Puede haber demora de algunos minutos</div>' : ''}</div>`;
 }
 
 // ---------------------------------------------------------------- finales
 
 function pintarFinales() {
   const seccion = $('#finales');
-  const idProximo = DATOS.proximoPartido?.competenciaId;
-  const lista = (DATOS.finalesPendientes || []).filter(f => f.id !== idProximo);
+  const lista = DATOS.finalesPendientes || [];
   if (!lista.length) { seccion.hidden = true; return; }
   seccion.hidden = false;
   $('#finales-tira').innerHTML = lista.map(f => `
@@ -190,7 +219,7 @@ function pintarTablaHome() {
   const seccion = $('#tabla-seccion');
   if (!comp) { seccion.hidden = true; return; }
   seccion.hidden = false;
-  $('#tabla-titulo').textContent = comp.nombre;
+  $('#tabla-titulo').textContent = 'Posiciones';
 
   if (!comp.tablas?.length) {
     $('#selector-tablas').innerHTML = '';
@@ -198,9 +227,7 @@ function pintarTablaHome() {
     return;
   }
 
-  // El selector solo aparece si hay más de una tabla relevante (Zona / Anual)
-  const propias = comp.tablas.filter(t => t.destacado || t.titulo === 'Tabla anual');
-  const tablas = propias.length ? propias : comp.tablas;
+  const tablas = comp.tablas;
   if (tablaActiva >= tablas.length) tablaActiva = 0;
 
   $('#selector-tablas').innerHTML = tablas.length > 1
@@ -216,20 +243,6 @@ function pintarTablaHome() {
     (t.filas.length > 6 ? `<button class="ver-completa" id="btn-completa">${tablaExpandida ? 'Ver menos' : 'Ver tabla completa'}</button>` : '');
   const btn = $('#btn-completa');
   if (btn) btn.onclick = () => { tablaExpandida = !tablaExpandida; pintarTablaHome(); };
-}
-
-// ---------------------------------------------------------------- último
-
-function pintarUltimo() {
-  const u = DATOS.ultimoPartido;
-  const caja = $('#ultimo');
-  if (!u) { caja.innerHTML = '<div class="vacio">Todavía no hay partidos jugados.</div>'; return; }
-  caja.innerHTML = `
-    <div class="pill ${u.resultado}">${u.golesEstudiantes}–${u.golesRival}</div>
-    <div class="detalle">
-      <div class="r">vs ${u.rival}</div>
-      <div class="c">${u.competencia} · ${fechaCorta(u.fecha)}</div>
-    </div>`;
 }
 
 // ---------------------------------------------------------------- accesos
@@ -288,7 +301,7 @@ function detalleHTML(c) {
       tablaHTML(t, DATOS.equipo.id, true));
   }
   if (c.llave?.length) {
-    partes.push('<h2 class="rotulo" style="margin:16px 0 8px">Camino</h2>' + c.llave.map(s => `
+    partes.push('<h2 class="rotulo" style="margin:16px 0 8px">Próximos partidos</h2>' + c.llave.map(s => `
       <div class="serie ${s.estado}">
         <div>
           <div class="instancia">${s.instancia}</div>
@@ -321,9 +334,6 @@ $('#volver').onclick = () => {
 
 function pintarFrescura() {
   const { texto, viejo } = haceCuanto(DATOS.actualizado);
-  const arriba = $('#frescura');
-  arriba.textContent = viejo ? '⚠ ' + texto : texto;
-  arriba.classList.toggle('demorado', viejo);
   const pie = $('#pie-actualizado');
   pie.textContent = texto.charAt(0).toUpperCase() + texto.slice(1);
   pie.classList.toggle('demorado', viejo);
@@ -331,36 +341,12 @@ function pintarFrescura() {
 
 // ---------------------------------------------------------------- arranque
 
-function pintarAviso() {
-  const caja = $('#aviso-global');
-  const faltan = (DATOS.faltantes || []).length;
-  if (!DATOS.aviso && !faltan) { caja.hidden = true; return; }
-  caja.hidden = false;
-  caja.innerHTML = [
-    DATOS.aviso ? `<div>${DATOS.aviso}</div>` : '',
-    // El detalle técnico solo se ve con ?admin=1: al hincha no le interesa.
-    faltan && params.get('admin')
-      ? `<div class="aviso-faltantes"><b>Falta cargar a mano</b><ul>${
-          DATOS.faltantes.map(x => `<li>${x}</li>`).join('')}</ul></div>`
-      : ''
-  ].join('');
-}
-
-function pintarEscudos() {
-  const url = DATOS.equipo?.escudo;
-  if (!url) return;
-  const marca = document.querySelector('.marca');
-  if (marca && !marca.querySelector('.escudo-barra')) {
-    marca.insertAdjacentHTML('afterbegin', `<img class="escudo-barra" src="${url}" alt="">`);
-  }
-}
-
 function pintarTodo() {
-  pintarEscudos();
+  pintarHero();
   pintarAviso();
-  pintarDestacado();
-  pintarFinales();
+  pintarProximoLiga();
   pintarTablaHome();
+  pintarFinales();
   pintarAccesos();
   pintarFrescura();
 }
@@ -372,15 +358,16 @@ async function cargar() {
     pintarTodo();
     if (DATOS.enVivo) seguirEnVivo(); else frenarEnVivo();
   } catch (e) {
-    if (!DATOS) $('#destacado').innerHTML =
-      '<div class="contexto">Sin conexión</div><div class="rival">No se pudieron cargar los datos</div>' +
-      '<div class="donde">Probá de nuevo cuando tengas señal.</div>';
+    if (!DATOS) $('#proximo-liga').innerHTML =
+      '<div class="partido"><div class="contexto">Sin conexión</div>' +
+      '<div class="rival">No se pudieron cargar los datos</div>' +
+      '<div class="donde">Probá de nuevo cuando tengas señal.</div></div>';
   }
 }
 
-/* Durante un partido, el cron de 10 min queda corto: recargamos cada 60 s.
+/* Durante un partido el cron de 10 min queda corto: recargamos cada 60 s.
    Además probamos una vez si el navegador puede pegarle a ESPN directo (CORS).
-   Si no puede, lo decimos en pantalla en vez de fingir que el marcador está al día. */
+   Si no puede, lo decimos en pantalla en vez de fingir que está al día. */
 let timerVivo = null;
 let corsProbado = false;
 
@@ -390,7 +377,7 @@ function seguirEnVivo() {
   corsProbado = true;
   fetch('https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard')
     .then(r => { if (!r.ok) throw new Error(); })
-    .catch(() => { DATOS.avisoDemora = true; pintarDestacado(); });
+    .catch(() => { DATOS.avisoDemora = true; pintarProximoLiga(); });
 }
 
 function frenarEnVivo() {
