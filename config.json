@@ -1,6 +1,5 @@
 {
   "_nota": "Fase 1 (Paso 0). Todo lo marcado verificado:true fue confirmado pegándole a la API real el 2026-08-23. Lo marcado verificado:false hay que confirmarlo con scripts/validar-endpoints.js antes de confiar en ello.",
-
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -9,7 +8,6 @@
     "verificado": true,
     "_ojo": "El brief tenía 2432 como tentativo. El ID real es 8. 19685 es Estudiantes de Río Cuarto: no confundir."
   },
-
   "api": {
     "site": "https://site.api.espn.com/apis/site/v2/sports/soccer",
     "standings": "https://site.api.espn.com/apis/v2/sports/soccer",
@@ -17,11 +15,11 @@
     "_trampa": "Tablas SIEMPRE por api.standings (/apis/v2/). Con /apis/site/v2/ vuelve vacío.",
     "_trampa2": "El scoreboard SIN el parámetro dates no devuelve el día de hoy, devuelve el día del calendario que ESPN tenga cargado. Hay que pasar siempre ?dates=YYYYMMDD-YYYYMMDD."
   },
-
-  "ventanaFixture": { "diasAtras": 45, "diasAdelante": 75 },
-
+  "ventanaFixture": {
+    "diasAtras": 45,
+    "diasAdelante": 75
+  },
   "torneoPrincipal": "liga",
-
   "competencias": [
     {
       "id": "liga",
@@ -32,10 +30,16 @@
       "verificado": true,
       "activa": true,
       "zonaDelEquipo": "Group A",
-      "nombresZonas": { "Group A": "Zona A", "Group B": "Zona B" },
+      "nombresZonas": {
+        "Group A": "Zona A",
+        "Group B": "Zona B"
+      },
       "tablaAnual": {
         "modo": "suma_seasontypes",
-        "seasontypes": [1, 6],
+        "seasontypes": [
+          1,
+          6
+        ],
         "_nota": "ESPN no publica la tabla anual. Se arma sumando Apertura (seasontype=1) y Clausura (seasontype=6), que sí tienen standings. Si alguno falla, la pestaña Anual no se muestra: mejor ausente que mal."
       },
       "_temporada2026": "Apertura ene-may, Clausura jul-nov, playoffs después. Estudiantes juega el Clausura en Group A."
@@ -47,8 +51,7 @@
       "codigo": "arg.copa",
       "nota": "Partido único en cancha neutral. El que pierde queda afuera.",
       "verificado": true,
-      "activa": true,
-      "_pendiente": "Código tentativo. Correr validar-endpoints.js. Alternativas si falla: arg.copa_argentina, arg.copa_arg."
+      "activa": true
     },
     {
       "id": "libertadores",
@@ -57,7 +60,7 @@
       "codigo": "conmebol.libertadores",
       "verificado": true,
       "activa": true,
-      "_pendiente": "Código tentativo. Activar solo si Estudiantes está participando."
+      "nota": "Llave a doble partido: ida y vuelta. Pasa el que suma más goles entre los dos."
     },
     {
       "id": "sudamericana",
@@ -69,7 +72,6 @@
       "_pendiente": "Código tentativo. Activar solo si Estudiantes está participando."
     }
   ],
-
   "mapaStats": {
     "pj": "gamesPlayed",
     "g": "wins",
@@ -82,7 +84,6 @@
     "pos": "rank",
     "_ojo": "Las entries NO vienen ordenadas por posición, vienen por id de equipo. Ordenar por rank (o por pts, dg, gf si rank viene en 0)."
   },
-
   "estadosEspn": {
     "pre": "programado",
     "in": "en_vivo",
