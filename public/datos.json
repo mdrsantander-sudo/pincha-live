@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-28T03:10:48.901Z",
+  "actualizado": "2026-08-28T03:11:28.844Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -946,15 +946,18 @@
       "nombre": "Copa Argentina",
       "tipo": "eliminacion",
       "tablas": [],
-      "llave": [],
+      "llave": [
+        {
+          "instancia": "Cuartos de final",
+          "rival": null,
+          "rivalTexto": "A definir",
+          "fechaHora": null,
+          "estado": "pendiente"
+        }
+      ],
       "nota": "Partido único en cancha neutral. El que pierde queda afuera.",
       "proximo": null,
       "mensajeVacio": "Copa Argentina: no quedan partidos por jugar.",
-      "instancia": "Cuartos de final",
-      "rival": null,
-      "rivalTexto": "A definir",
-      "fechaHora": "2026-09-10T22:00:00Z",
-      "estado": "pendiente",
       "manual": true
     },
     {
