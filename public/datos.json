@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-28T23:08:08.512Z",
+  "actualizado": "2026-08-29T04:08:34.518Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -139,6 +139,20 @@
             },
             {
               "pos": 6,
+              "equipo": "Unión (Santa Fe)",
+              "equipoId": "20",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
+              "pj": 7,
+              "g": 3,
+              "e": 1,
+              "p": 3,
+              "gf": 12,
+              "gc": 10,
+              "dg": 2,
+              "pts": 10
+            },
+            {
+              "pos": 7,
               "equipo": "Newell's Old Boys",
               "equipoId": "14",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
@@ -152,7 +166,21 @@
               "pts": 10
             },
             {
-              "pos": 7,
+              "pos": 8,
+              "equipo": "Boca Juniors",
+              "equipoId": "5",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+              "pj": 7,
+              "g": 2,
+              "e": 4,
+              "p": 1,
+              "gf": 7,
+              "gc": 8,
+              "dg": -1,
+              "pts": 10
+            },
+            {
+              "pos": 9,
               "equipo": "Platense",
               "equipoId": "7764",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
@@ -166,7 +194,7 @@
               "pts": 8
             },
             {
-              "pos": 8,
+              "pos": 10,
               "equipo": "Deportivo Riestra",
               "equipoId": "17702",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
@@ -180,45 +208,17 @@
               "pts": 7
             },
             {
-              "pos": 9,
+              "pos": 11,
               "equipo": "Lanús",
               "equipoId": "12",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
-              "pj": 6,
+              "pj": 7,
               "g": 2,
               "e": 1,
-              "p": 3,
+              "p": 4,
               "gf": 7,
-              "gc": 7,
-              "dg": 0,
-              "pts": 7
-            },
-            {
-              "pos": 10,
-              "equipo": "Unión (Santa Fe)",
-              "equipoId": "20",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
-              "pj": 6,
-              "g": 2,
-              "e": 1,
-              "p": 3,
-              "gf": 8,
-              "gc": 9,
-              "dg": -1,
-              "pts": 7
-            },
-            {
-              "pos": 11,
-              "equipo": "Boca Juniors",
-              "equipoId": "5",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-              "pj": 6,
-              "g": 1,
-              "e": 4,
-              "p": 1,
-              "gf": 6,
               "gc": 8,
-              "dg": -2,
+              "dg": -1,
               "pts": 7
             },
             {
@@ -302,13 +302,13 @@
               "equipo": "Sarmiento (Junín)",
               "equipoId": "10158",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
-              "pj": 6,
+              "pj": 7,
               "g": 4,
               "e": 0,
-              "p": 2,
-              "gf": 12,
-              "gc": 8,
-              "dg": 4,
+              "p": 3,
+              "gf": 13,
+              "gc": 12,
+              "dg": 1,
               "pts": 12
             },
             {
@@ -529,6 +529,20 @@
             },
             {
               "pos": 3,
+              "equipo": "Boca Juniors",
+              "equipoId": "5",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+              "pj": 23,
+              "g": 10,
+              "e": 10,
+              "p": 3,
+              "gf": 29,
+              "gc": 17,
+              "dg": 12,
+              "pts": 40
+            },
+            {
+              "pos": 4,
               "equipo": "Vélez Sarsfield",
               "equipoId": "21",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
@@ -542,7 +556,7 @@
               "pts": 40
             },
             {
-              "pos": 4,
+              "pos": 5,
               "equipo": "Rosario Central",
               "equipoId": "17",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
@@ -556,7 +570,7 @@
               "pts": 39
             },
             {
-              "pos": 5,
+              "pos": 6,
               "equipo": "Estudiantes de La Plata",
               "equipoId": "8",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
@@ -567,20 +581,6 @@
               "gf": 26,
               "gc": 14,
               "dg": 12,
-              "pts": 37
-            },
-            {
-              "pos": 6,
-              "equipo": "Boca Juniors",
-              "equipoId": "5",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-              "pj": 22,
-              "g": 9,
-              "e": 10,
-              "p": 3,
-              "gf": 28,
-              "gc": 17,
-              "dg": 11,
               "pts": 37
             },
             {
@@ -655,6 +655,20 @@
             },
             {
               "pos": 12,
+              "equipo": "Unión (Santa Fe)",
+              "equipoId": "20",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
+              "pj": 23,
+              "g": 8,
+              "e": 7,
+              "p": 8,
+              "gf": 36,
+              "gc": 30,
+              "dg": 6,
+              "pts": 31
+            },
+            {
+              "pos": 13,
               "equipo": "Tigre",
               "equipoId": "7767",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7767.png",
@@ -668,31 +682,17 @@
               "pts": 31
             },
             {
-              "pos": 13,
+              "pos": 14,
               "equipo": "Lanús",
               "equipoId": "12",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
-              "pj": 22,
+              "pj": 23,
               "g": 8,
               "e": 7,
-              "p": 7,
+              "p": 8,
               "gf": 25,
-              "gc": 22,
-              "dg": 3,
-              "pts": 31
-            },
-            {
-              "pos": 14,
-              "equipo": "Sarmiento (Junín)",
-              "equipoId": "10158",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
-              "pj": 22,
-              "g": 10,
-              "e": 1,
-              "p": 11,
-              "gf": 25,
-              "gc": 28,
-              "dg": -3,
+              "gc": 23,
+              "dg": 2,
               "pts": 31
             },
             {
@@ -711,6 +711,20 @@
             },
             {
               "pos": 16,
+              "equipo": "Sarmiento (Junín)",
+              "equipoId": "10158",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
+              "pj": 23,
+              "g": 10,
+              "e": 1,
+              "p": 12,
+              "gf": 26,
+              "gc": 32,
+              "dg": -6,
+              "pts": 31
+            },
+            {
+              "pos": 17,
               "equipo": "Huracán",
               "equipoId": "10",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10.png",
@@ -724,7 +738,7 @@
               "pts": 30
             },
             {
-              "pos": 17,
+              "pos": 18,
               "equipo": "Talleres (Córdoba)",
               "equipoId": "19",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
@@ -738,7 +752,7 @@
               "pts": 30
             },
             {
-              "pos": 18,
+              "pos": 19,
               "equipo": "Barracas Central",
               "equipoId": "10060",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
@@ -752,7 +766,7 @@
               "pts": 30
             },
             {
-              "pos": 19,
+              "pos": 20,
               "equipo": "Defensa y Justicia",
               "equipoId": "8950",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
@@ -766,7 +780,7 @@
               "pts": 30
             },
             {
-              "pos": 20,
+              "pos": 21,
               "equipo": "San Lorenzo",
               "equipoId": "18",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
@@ -778,20 +792,6 @@
               "gc": 18,
               "dg": -2,
               "pts": 29
-            },
-            {
-              "pos": 21,
-              "equipo": "Unión (Santa Fe)",
-              "equipoId": "20",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
-              "pj": 22,
-              "g": 7,
-              "e": 7,
-              "p": 8,
-              "gf": 32,
-              "gc": 29,
-              "dg": 3,
-              "pts": 28
             },
             {
               "pos": 22,
