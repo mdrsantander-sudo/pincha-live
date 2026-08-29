@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-29T18:49:42.105Z",
+  "actualizado": "2026-08-29T21:20:33.365Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -69,6 +69,20 @@
           "filas": [
             {
               "pos": 1,
+              "equipo": "Vélez Sarsfield",
+              "equipoId": "21",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+              "pj": 7,
+              "g": 3,
+              "e": 4,
+              "p": 0,
+              "gf": 10,
+              "gc": 6,
+              "dg": 4,
+              "pts": 13
+            },
+            {
+              "pos": 2,
               "equipo": "Instituto (Córdoba)",
               "equipoId": "2975",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
@@ -80,20 +94,6 @@
               "gc": 2,
               "dg": 3,
               "pts": 13
-            },
-            {
-              "pos": 2,
-              "equipo": "Vélez Sarsfield",
-              "equipoId": "21",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
-              "pj": 6,
-              "g": 3,
-              "e": 3,
-              "p": 0,
-              "gf": 9,
-              "gc": 5,
-              "dg": 4,
-              "pts": 12
             },
             {
               "pos": 3,
@@ -181,6 +181,20 @@
             },
             {
               "pos": 9,
+              "equipo": "Deportivo Riestra",
+              "equipoId": "17702",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
+              "pj": 7,
+              "g": 2,
+              "e": 2,
+              "p": 3,
+              "gf": 7,
+              "gc": 6,
+              "dg": 1,
+              "pts": 8
+            },
+            {
+              "pos": 10,
               "equipo": "Platense",
               "equipoId": "7764",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
@@ -192,20 +206,6 @@
               "gc": 10,
               "dg": -3,
               "pts": 8
-            },
-            {
-              "pos": 10,
-              "equipo": "Deportivo Riestra",
-              "equipoId": "17702",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
-              "pj": 6,
-              "g": 2,
-              "e": 1,
-              "p": 3,
-              "gf": 6,
-              "gc": 5,
-              "dg": 1,
-              "pts": 7
             },
             {
               "pos": 11,
@@ -529,6 +529,20 @@
             },
             {
               "pos": 3,
+              "equipo": "Vélez Sarsfield",
+              "equipoId": "21",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+              "pj": 23,
+              "g": 10,
+              "e": 11,
+              "p": 2,
+              "gf": 28,
+              "gc": 18,
+              "dg": 10,
+              "pts": 41
+            },
+            {
+              "pos": 4,
               "equipo": "Boca Juniors",
               "equipoId": "5",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
@@ -539,20 +553,6 @@
               "gf": 29,
               "gc": 17,
               "dg": 12,
-              "pts": 40
-            },
-            {
-              "pos": 4,
-              "equipo": "Vélez Sarsfield",
-              "equipoId": "21",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
-              "pj": 22,
-              "g": 10,
-              "e": 10,
-              "p": 2,
-              "gf": 27,
-              "gc": 17,
-              "dg": 10,
               "pts": 40
             },
             {
@@ -882,14 +882,14 @@
               "equipo": "Deportivo Riestra",
               "equipoId": "17702",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
-              "pj": 22,
+              "pj": 23,
               "g": 3,
-              "e": 9,
+              "e": 10,
               "p": 10,
-              "gf": 11,
-              "gc": 17,
+              "gf": 12,
+              "gc": 18,
               "dg": -6,
-              "pts": 18
+              "pts": 19
             },
             {
               "pos": 29,
