@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-30T19:57:07.655Z",
+  "actualizado": "2026-08-30T22:29:47.726Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -288,14 +288,14 @@
               "equipo": "Argentinos Juniors",
               "equipoId": "3",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3.png",
-              "pj": 6,
-              "g": 4,
+              "pj": 7,
+              "g": 5,
               "e": 1,
               "p": 1,
-              "gf": 10,
-              "gc": 6,
-              "dg": 4,
-              "pts": 13
+              "gf": 12,
+              "gc": 7,
+              "dg": 5,
+              "pts": 16
             },
             {
               "pos": 2,
@@ -484,13 +484,13 @@
               "equipo": "Aldosivi",
               "equipoId": "9739",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9739.png",
-              "pj": 6,
+              "pj": 7,
               "g": 0,
               "e": 2,
-              "p": 4,
-              "gf": 4,
-              "gc": 9,
-              "dg": -5,
+              "p": 5,
+              "gf": 5,
+              "gc": 11,
+              "dg": -6,
               "pts": 2
             }
           ]
