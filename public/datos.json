@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-29T23:29:29.596Z",
+  "actualizado": "2026-08-30T01:35:00.579Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -383,6 +383,20 @@
             },
             {
               "pos": 8,
+              "equipo": "Huracán",
+              "equipoId": "10",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10.png",
+              "pj": 7,
+              "g": 2,
+              "e": 3,
+              "p": 2,
+              "gf": 5,
+              "gc": 5,
+              "dg": 0,
+              "pts": 9
+            },
+            {
+              "pos": 9,
               "equipo": "Barracas Central",
               "equipoId": "10060",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
@@ -394,20 +408,6 @@
               "gc": 5,
               "dg": -1,
               "pts": 9
-            },
-            {
-              "pos": 9,
-              "equipo": "Huracán",
-              "equipoId": "10",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10.png",
-              "pj": 6,
-              "g": 2,
-              "e": 2,
-              "p": 2,
-              "gf": 4,
-              "gc": 4,
-              "dg": 0,
-              "pts": 8
             },
             {
               "pos": 10,
@@ -439,6 +439,20 @@
             },
             {
               "pos": 12,
+              "equipo": "Estudiantes de Río Cuarto",
+              "equipoId": "19685",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19685.png",
+              "pj": 7,
+              "g": 1,
+              "e": 3,
+              "p": 3,
+              "gf": 3,
+              "gc": 7,
+              "dg": -4,
+              "pts": 6
+            },
+            {
+              "pos": 13,
               "equipo": "Racing Club",
               "equipoId": "15",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/15.png",
@@ -449,20 +463,6 @@
               "gf": 5,
               "gc": 8,
               "dg": -3,
-              "pts": 5
-            },
-            {
-              "pos": 13,
-              "equipo": "Estudiantes de Río Cuarto",
-              "equipoId": "19685",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19685.png",
-              "pj": 6,
-              "g": 1,
-              "e": 2,
-              "p": 3,
-              "gf": 2,
-              "gc": 6,
-              "dg": -4,
               "pts": 5
             },
             {
