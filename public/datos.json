@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-30T17:25:38.201Z",
+  "actualizado": "2026-08-30T19:57:07.655Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -425,20 +425,34 @@
             },
             {
               "pos": 11,
-              "equipo": "Banfield",
-              "equipoId": "235",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
-              "pj": 6,
+              "equipo": "River Plate",
+              "equipoId": "16",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png",
+              "pj": 7,
               "g": 2,
               "e": 1,
-              "p": 3,
-              "gf": 5,
-              "gc": 7,
-              "dg": -2,
+              "p": 4,
+              "gf": 7,
+              "gc": 8,
+              "dg": -1,
               "pts": 7
             },
             {
               "pos": 12,
+              "equipo": "Banfield",
+              "equipoId": "235",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
+              "pj": 7,
+              "g": 2,
+              "e": 1,
+              "p": 4,
+              "gf": 7,
+              "gc": 10,
+              "dg": -3,
+              "pts": 7
+            },
+            {
+              "pos": 13,
               "equipo": "Estudiantes de Río Cuarto",
               "equipoId": "19685",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19685.png",
@@ -452,7 +466,7 @@
               "pts": 6
             },
             {
-              "pos": 13,
+              "pos": 14,
               "equipo": "Racing Club",
               "equipoId": "15",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/15.png",
@@ -464,20 +478,6 @@
               "gc": 8,
               "dg": -3,
               "pts": 5
-            },
-            {
-              "pos": 14,
-              "equipo": "River Plate",
-              "equipoId": "16",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png",
-              "pj": 6,
-              "g": 1,
-              "e": 1,
-              "p": 4,
-              "gf": 4,
-              "gc": 6,
-              "dg": -2,
-              "pts": 4
             },
             {
               "pos": 15,
