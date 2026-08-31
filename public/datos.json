@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-30T22:29:47.726Z",
+  "actualizado": "2026-08-31T00:47:37.409Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -69,6 +69,20 @@
           "filas": [
             {
               "pos": 1,
+              "equipo": "Gimnasia (Mendoza)",
+              "equipoId": "11972",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
+              "pj": 7,
+              "g": 5,
+              "e": 0,
+              "p": 2,
+              "gf": 12,
+              "gc": 5,
+              "dg": 7,
+              "pts": 15
+            },
+            {
+              "pos": 2,
               "equipo": "Vélez Sarsfield",
               "equipoId": "21",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
@@ -82,7 +96,7 @@
               "pts": 13
             },
             {
-              "pos": 2,
+              "pos": 3,
               "equipo": "Instituto (Córdoba)",
               "equipoId": "2975",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
@@ -94,20 +108,6 @@
               "gc": 2,
               "dg": 3,
               "pts": 13
-            },
-            {
-              "pos": 3,
-              "equipo": "Gimnasia (Mendoza)",
-              "equipoId": "11972",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
-              "pj": 6,
-              "g": 4,
-              "e": 0,
-              "p": 2,
-              "gf": 9,
-              "gc": 5,
-              "dg": 4,
-              "pts": 12
             },
             {
               "pos": 4,
@@ -125,20 +125,6 @@
             },
             {
               "pos": 5,
-              "equipo": "Independiente",
-              "equipoId": "11",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
-              "pj": 6,
-              "g": 3,
-              "e": 1,
-              "p": 2,
-              "gf": 6,
-              "gc": 3,
-              "dg": 3,
-              "pts": 10
-            },
-            {
-              "pos": 6,
               "equipo": "Unión (Santa Fe)",
               "equipoId": "20",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
@@ -152,7 +138,7 @@
               "pts": 10
             },
             {
-              "pos": 7,
+              "pos": 6,
               "equipo": "Newell's Old Boys",
               "equipoId": "14",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
@@ -163,6 +149,20 @@
               "gf": 8,
               "gc": 6,
               "dg": 2,
+              "pts": 10
+            },
+            {
+              "pos": 7,
+              "equipo": "Independiente",
+              "equipoId": "11",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
+              "pj": 7,
+              "g": 3,
+              "e": 1,
+              "p": 3,
+              "gf": 6,
+              "gc": 6,
+              "dg": 0,
               "pts": 10
             },
             {
