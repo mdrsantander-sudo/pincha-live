@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-31T23:43:45.005Z",
+  "actualizado": "2026-09-01T02:04:32.549Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -83,6 +83,20 @@
             },
             {
               "pos": 2,
+              "equipo": "Defensa y Justicia",
+              "equipoId": "8950",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
+              "pj": 7,
+              "g": 4,
+              "e": 2,
+              "p": 1,
+              "gf": 9,
+              "gc": 8,
+              "dg": 1,
+              "pts": 14
+            },
+            {
+              "pos": 3,
               "equipo": "Vélez Sarsfield",
               "equipoId": "21",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
@@ -96,7 +110,7 @@
               "pts": 13
             },
             {
-              "pos": 3,
+              "pos": 4,
               "equipo": "Instituto (Córdoba)",
               "equipoId": "2975",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
@@ -110,21 +124,21 @@
               "pts": 13
             },
             {
-              "pos": 4,
-              "equipo": "Defensa y Justicia",
-              "equipoId": "8950",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
-              "pj": 6,
+              "pos": 5,
+              "equipo": "Newell's Old Boys",
+              "equipoId": "14",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+              "pj": 7,
               "g": 3,
               "e": 2,
-              "p": 1,
+              "p": 2,
               "gf": 8,
-              "gc": 8,
-              "dg": 0,
+              "gc": 6,
+              "dg": 2,
               "pts": 11
             },
             {
-              "pos": 5,
+              "pos": 6,
               "equipo": "Unión (Santa Fe)",
               "equipoId": "20",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
@@ -134,20 +148,6 @@
               "p": 3,
               "gf": 12,
               "gc": 10,
-              "dg": 2,
-              "pts": 10
-            },
-            {
-              "pos": 6,
-              "equipo": "Newell's Old Boys",
-              "equipoId": "14",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
-              "pj": 6,
-              "g": 3,
-              "e": 1,
-              "p": 2,
-              "gf": 8,
-              "gc": 6,
               "dg": 2,
               "pts": 10
             },
@@ -198,17 +198,31 @@
               "equipo": "Platense",
               "equipoId": "7764",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
-              "pj": 6,
+              "pj": 7,
               "g": 2,
               "e": 2,
-              "p": 2,
+              "p": 3,
               "gf": 7,
-              "gc": 10,
-              "dg": -3,
+              "gc": 11,
+              "dg": -4,
               "pts": 8
             },
             {
               "pos": 11,
+              "equipo": "Estudiantes de La Plata",
+              "equipoId": "8",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+              "pj": 7,
+              "g": 2,
+              "e": 1,
+              "p": 4,
+              "gf": 7,
+              "gc": 7,
+              "dg": 0,
+              "pts": 7
+            },
+            {
+              "pos": 12,
               "equipo": "Lanús",
               "equipoId": "12",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
@@ -222,7 +236,7 @@
               "pts": 7
             },
             {
-              "pos": 12,
+              "pos": 13,
               "equipo": "San Lorenzo",
               "equipoId": "18",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
@@ -236,7 +250,7 @@
               "pts": 7
             },
             {
-              "pos": 13,
+              "pos": 14,
               "equipo": "Central Córdoba (Santiago del Estero)",
               "equipoId": "11989",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
@@ -248,20 +262,6 @@
               "gc": 7,
               "dg": -3,
               "pts": 7
-            },
-            {
-              "pos": 14,
-              "equipo": "Estudiantes de La Plata",
-              "equipoId": "8",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-              "pj": 6,
-              "g": 2,
-              "e": 0,
-              "p": 4,
-              "gf": 7,
-              "gc": 7,
-              "dg": 0,
-              "pts": 6
             },
             {
               "pos": 15,
