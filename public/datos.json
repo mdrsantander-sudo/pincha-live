@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-02T13:16:51.724Z",
+  "actualizado": "2026-09-02T17:12:14.903Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -956,8 +956,23 @@
         }
       ],
       "nota": "Partido único en cancha neutral. El que pierde queda afuera.",
-      "proximo": null,
-      "mensajeVacio": "Copa Argentina: no quedan partidos por jugar.",
+      "proximo": {
+        "id": "401913078",
+        "competencia": "Copa Argentina",
+        "competenciaId": "copa-argentina",
+        "instancia": "Cuartos de final",
+        "rival": "Platense",
+        "rivalTexto": null,
+        "rivalEscudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+        "fechaHora": "2026-09-27T18:00Z",
+        "estadio": null,
+        "condicion": "visitante",
+        "estado": "programado",
+        "golesEstudiantes": 0,
+        "golesRival": 0,
+        "minuto": "0'",
+        "periodo": "TBD"
+      },
       "manual": true
     },
     {
