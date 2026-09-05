@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-05T17:44:08.837Z",
+  "actualizado": "2026-09-05T19:34:42.054Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -313,6 +313,20 @@
             },
             {
               "pos": 3,
+              "equipo": "Gimnasia La Plata",
+              "equipoId": "9",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
+              "pj": 8,
+              "g": 5,
+              "e": 0,
+              "p": 3,
+              "gf": 12,
+              "gc": 12,
+              "dg": 0,
+              "pts": 15
+            },
+            {
+              "pos": 4,
               "equipo": "Belgrano (Córdoba)",
               "equipoId": "4",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4.png",
@@ -326,31 +340,17 @@
               "pts": 12
             },
             {
-              "pos": 4,
+              "pos": 5,
               "equipo": "Tigre",
               "equipoId": "7767",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7767.png",
-              "pj": 7,
+              "pj": 8,
               "g": 3,
               "e": 3,
-              "p": 1,
-              "gf": 6,
-              "gc": 3,
-              "dg": 3,
-              "pts": 12
-            },
-            {
-              "pos": 5,
-              "equipo": "Gimnasia La Plata",
-              "equipoId": "9",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
-              "pj": 7,
-              "g": 4,
-              "e": 0,
-              "p": 3,
-              "gf": 10,
-              "gc": 11,
-              "dg": -1,
+              "p": 2,
+              "gf": 7,
+              "gc": 5,
+              "dg": 2,
               "pts": 12
             },
             {
@@ -442,13 +442,13 @@
               "equipo": "Banfield",
               "equipoId": "235",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
-              "pj": 7,
+              "pj": 8,
               "g": 2,
               "e": 1,
-              "p": 4,
-              "gf": 7,
-              "gc": 10,
-              "dg": -3,
+              "p": 5,
+              "gf": 8,
+              "gc": 13,
+              "dg": -5,
               "pts": 7
             },
             {
@@ -467,6 +467,20 @@
             },
             {
               "pos": 14,
+              "equipo": "Aldosivi",
+              "equipoId": "9739",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9739.png",
+              "pj": 8,
+              "g": 1,
+              "e": 2,
+              "p": 5,
+              "gf": 8,
+              "gc": 12,
+              "dg": -4,
+              "pts": 5
+            },
+            {
+              "pos": 15,
               "equipo": "Racing Club",
               "equipoId": "15",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/15.png",
@@ -478,20 +492,6 @@
               "gc": 11,
               "dg": -5,
               "pts": 5
-            },
-            {
-              "pos": 15,
-              "equipo": "Aldosivi",
-              "equipoId": "9739",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9739.png",
-              "pj": 7,
-              "g": 0,
-              "e": 2,
-              "p": 5,
-              "gf": 5,
-              "gc": 11,
-              "dg": -6,
-              "pts": 2
             }
           ]
         },
