@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-05T19:34:42.054Z",
+  "actualizado": "2026-09-05T21:40:09.496Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -69,6 +69,20 @@
           "filas": [
             {
               "pos": 1,
+              "equipo": "Gimnasia (Mendoza)",
+              "equipoId": "11972",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
+              "pj": 8,
+              "g": 5,
+              "e": 1,
+              "p": 2,
+              "gf": 14,
+              "gc": 7,
+              "dg": 7,
+              "pts": 16
+            },
+            {
+              "pos": 2,
               "equipo": "Instituto (Córdoba)",
               "equipoId": "2975",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
@@ -80,20 +94,6 @@
               "gc": 2,
               "dg": 4,
               "pts": 16
-            },
-            {
-              "pos": 2,
-              "equipo": "Gimnasia (Mendoza)",
-              "equipoId": "11972",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
-              "pj": 7,
-              "g": 5,
-              "e": 0,
-              "p": 2,
-              "gf": 12,
-              "gc": 5,
-              "dg": 7,
-              "pts": 15
             },
             {
               "pos": 3,
@@ -139,6 +139,20 @@
             },
             {
               "pos": 6,
+              "equipo": "Boca Juniors",
+              "equipoId": "5",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+              "pj": 8,
+              "g": 2,
+              "e": 5,
+              "p": 1,
+              "gf": 9,
+              "gc": 10,
+              "dg": -1,
+              "pts": 11
+            },
+            {
+              "pos": 7,
               "equipo": "Unión (Santa Fe)",
               "equipoId": "20",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
@@ -152,7 +166,7 @@
               "pts": 10
             },
             {
-              "pos": 7,
+              "pos": 8,
               "equipo": "Independiente",
               "equipoId": "11",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
@@ -163,20 +177,6 @@
               "gf": 6,
               "gc": 6,
               "dg": 0,
-              "pts": 10
-            },
-            {
-              "pos": 8,
-              "equipo": "Boca Juniors",
-              "equipoId": "5",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-              "pj": 7,
-              "g": 2,
-              "e": 4,
-              "p": 1,
-              "gf": 7,
-              "gc": 8,
-              "dg": -1,
               "pts": 10
             },
             {
