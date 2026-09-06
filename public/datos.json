@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-06T18:33:21.504Z",
+  "actualizado": "2026-09-06T20:47:18.528Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -128,14 +128,14 @@
               "equipo": "Newell's Old Boys",
               "equipoId": "14",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
-              "pj": 7,
+              "pj": 8,
               "g": 3,
-              "e": 2,
+              "e": 3,
               "p": 2,
-              "gf": 8,
-              "gc": 6,
+              "gf": 9,
+              "gc": 7,
               "dg": 2,
-              "pts": 11
+              "pts": 12
             },
             {
               "pos": 6,
@@ -355,23 +355,23 @@
             },
             {
               "pos": 6,
-              "equipo": "Independiente Rivadavia",
-              "equipoId": "9744",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
-              "pj": 7,
-              "g": 3,
-              "e": 2,
-              "p": 2,
-              "gf": 8,
-              "gc": 7,
-              "dg": 1,
-              "pts": 11
-            },
-            {
-              "pos": 7,
               "equipo": "Rosario Central",
               "equipoId": "17",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+              "pj": 8,
+              "g": 3,
+              "e": 3,
+              "p": 2,
+              "gf": 9,
+              "gc": 8,
+              "dg": 1,
+              "pts": 12
+            },
+            {
+              "pos": 7,
+              "equipo": "Independiente Rivadavia",
+              "equipoId": "9744",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
               "pj": 7,
               "g": 3,
               "e": 2,
