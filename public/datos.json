@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-06T20:47:18.528Z",
+  "actualizado": "2026-09-06T22:26:35.340Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -114,17 +114,31 @@
               "equipo": "Defensa y Justicia",
               "equipoId": "8950",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
-              "pj": 7,
+              "pj": 8,
               "g": 4,
               "e": 2,
-              "p": 1,
+              "p": 2,
               "gf": 9,
-              "gc": 8,
-              "dg": 1,
+              "gc": 9,
+              "dg": 0,
               "pts": 14
             },
             {
               "pos": 5,
+              "equipo": "Independiente",
+              "equipoId": "11",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
+              "pj": 8,
+              "g": 4,
+              "e": 1,
+              "p": 3,
+              "gf": 7,
+              "gc": 6,
+              "dg": 1,
+              "pts": 13
+            },
+            {
+              "pos": 6,
               "equipo": "Newell's Old Boys",
               "equipoId": "14",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
@@ -138,7 +152,7 @@
               "pts": 12
             },
             {
-              "pos": 6,
+              "pos": 7,
               "equipo": "Boca Juniors",
               "equipoId": "5",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
@@ -152,7 +166,7 @@
               "pts": 11
             },
             {
-              "pos": 7,
+              "pos": 8,
               "equipo": "Unión (Santa Fe)",
               "equipoId": "20",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
@@ -166,21 +180,21 @@
               "pts": 10
             },
             {
-              "pos": 8,
-              "equipo": "Independiente",
-              "equipoId": "11",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
-              "pj": 7,
+              "pos": 9,
+              "equipo": "Lanús",
+              "equipoId": "12",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+              "pj": 8,
               "g": 3,
               "e": 1,
-              "p": 3,
-              "gf": 6,
-              "gc": 6,
+              "p": 4,
+              "gf": 8,
+              "gc": 8,
               "dg": 0,
               "pts": 10
             },
             {
-              "pos": 9,
+              "pos": 10,
               "equipo": "San Lorenzo",
               "equipoId": "18",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
@@ -194,7 +208,7 @@
               "pts": 10
             },
             {
-              "pos": 10,
+              "pos": 11,
               "equipo": "Deportivo Riestra",
               "equipoId": "17702",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
@@ -208,7 +222,7 @@
               "pts": 9
             },
             {
-              "pos": 11,
+              "pos": 12,
               "equipo": "Platense",
               "equipoId": "7764",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
@@ -220,20 +234,6 @@
               "gc": 12,
               "dg": -4,
               "pts": 9
-            },
-            {
-              "pos": 12,
-              "equipo": "Lanús",
-              "equipoId": "12",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
-              "pj": 7,
-              "g": 2,
-              "e": 1,
-              "p": 4,
-              "gf": 7,
-              "gc": 8,
-              "dg": -1,
-              "pts": 7
             },
             {
               "pos": 13,
@@ -254,13 +254,13 @@
               "equipo": "Central Córdoba (Santiago del Estero)",
               "equipoId": "11989",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
-              "pj": 7,
+              "pj": 8,
               "g": 2,
               "e": 1,
-              "p": 4,
+              "p": 5,
               "gf": 4,
-              "gc": 7,
-              "dg": -3,
+              "gc": 8,
+              "dg": -4,
               "pts": 7
             },
             {
