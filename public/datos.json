@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-06T01:05:32.140Z",
+  "actualizado": "2026-09-06T05:52:47.126Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -31,23 +31,7 @@
     "resultado": "victoria",
     "fecha": "2026-08-19T00:30Z"
   },
-  "enVivo": {
-    "id": "401841540",
-    "competencia": "Liga Profesional",
-    "competenciaId": "liga",
-    "instancia": null,
-    "rival": "Vélez Sarsfield",
-    "rivalTexto": null,
-    "rivalEscudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
-    "fechaHora": "2026-09-06T00:15Z",
-    "estadio": "José Amalfitani",
-    "condicion": "visitante",
-    "estado": "en_vivo",
-    "golesEstudiantes": 0,
-    "golesRival": 1,
-    "minuto": "45'+2'",
-    "periodo": "HT"
-  },
+  "enVivo": null,
   "torneoPrincipal": "liga",
   "finalesPendientes": [
     {
@@ -99,6 +83,20 @@
             },
             {
               "pos": 2,
+              "equipo": "Vélez Sarsfield",
+              "equipoId": "21",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+              "pj": 8,
+              "g": 4,
+              "e": 4,
+              "p": 0,
+              "gf": 11,
+              "gc": 6,
+              "dg": 5,
+              "pts": 16
+            },
+            {
+              "pos": 3,
               "equipo": "Instituto (Córdoba)",
               "equipoId": "2975",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
@@ -112,7 +110,7 @@
               "pts": 16
             },
             {
-              "pos": 3,
+              "pos": 4,
               "equipo": "Defensa y Justicia",
               "equipoId": "8950",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
@@ -124,20 +122,6 @@
               "gc": 8,
               "dg": 1,
               "pts": 14
-            },
-            {
-              "pos": 4,
-              "equipo": "Vélez Sarsfield",
-              "equipoId": "21",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
-              "pj": 7,
-              "g": 3,
-              "e": 4,
-              "p": 0,
-              "gf": 10,
-              "gc": 6,
-              "dg": 4,
-              "pts": 13
             },
             {
               "pos": 5,
@@ -239,20 +223,6 @@
             },
             {
               "pos": 12,
-              "equipo": "Estudiantes de La Plata",
-              "equipoId": "8",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-              "pj": 7,
-              "g": 2,
-              "e": 1,
-              "p": 4,
-              "gf": 7,
-              "gc": 7,
-              "dg": 0,
-              "pts": 7
-            },
-            {
-              "pos": 13,
               "equipo": "Lanús",
               "equipoId": "12",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
@@ -260,6 +230,20 @@
               "g": 2,
               "e": 1,
               "p": 4,
+              "gf": 7,
+              "gc": 8,
+              "dg": -1,
+              "pts": 7
+            },
+            {
+              "pos": 13,
+              "equipo": "Estudiantes de La Plata",
+              "equipoId": "8",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+              "pj": 8,
+              "g": 2,
+              "e": 1,
+              "p": 5,
               "gf": 7,
               "gc": 8,
               "dg": -1,
@@ -545,6 +529,20 @@
             },
             {
               "pos": 3,
+              "equipo": "Vélez Sarsfield",
+              "equipoId": "21",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+              "pj": 24,
+              "g": 11,
+              "e": 11,
+              "p": 2,
+              "gf": 29,
+              "gc": 18,
+              "dg": 11,
+              "pts": 44
+            },
+            {
+              "pos": 4,
               "equipo": "Boca Juniors",
               "equipoId": "5",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
@@ -555,20 +553,6 @@
               "gf": 31,
               "gc": 19,
               "dg": 12,
-              "pts": 41
-            },
-            {
-              "pos": 4,
-              "equipo": "Vélez Sarsfield",
-              "equipoId": "21",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
-              "pj": 23,
-              "g": 10,
-              "e": 11,
-              "p": 2,
-              "gf": 28,
-              "gc": 18,
-              "dg": 10,
               "pts": 41
             },
             {
@@ -604,13 +588,13 @@
               "equipo": "Estudiantes de La Plata",
               "equipoId": "8",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-              "pj": 23,
+              "pj": 24,
               "g": 11,
               "e": 5,
-              "p": 7,
+              "p": 8,
               "gf": 26,
-              "gc": 14,
-              "dg": 12,
+              "gc": 15,
+              "dg": 11,
               "pts": 38
             },
             {
@@ -741,6 +725,20 @@
             },
             {
               "pos": 17,
+              "equipo": "San Lorenzo",
+              "equipoId": "18",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
+              "pj": 24,
+              "g": 8,
+              "e": 8,
+              "p": 8,
+              "gf": 17,
+              "gc": 19,
+              "dg": -2,
+              "pts": 32
+            },
+            {
+              "pos": 18,
               "equipo": "Unión (Santa Fe)",
               "equipoId": "20",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
@@ -754,7 +752,7 @@
               "pts": 31
             },
             {
-              "pos": 18,
+              "pos": 19,
               "equipo": "Lanús",
               "equipoId": "12",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
@@ -768,21 +766,21 @@
               "pts": 31
             },
             {
-              "pos": 19,
+              "pos": 20,
               "equipo": "Talleres (Córdoba)",
               "equipoId": "19",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
-              "pj": 23,
+              "pj": 24,
               "g": 8,
               "e": 7,
-              "p": 8,
+              "p": 9,
               "gf": 25,
-              "gc": 25,
-              "dg": 0,
+              "gc": 26,
+              "dg": -1,
               "pts": 31
             },
             {
-              "pos": 20,
+              "pos": 21,
               "equipo": "Barracas Central",
               "equipoId": "10060",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
@@ -794,20 +792,6 @@
               "gc": 20,
               "dg": -1,
               "pts": 31
-            },
-            {
-              "pos": 21,
-              "equipo": "San Lorenzo",
-              "equipoId": "18",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
-              "pj": 23,
-              "g": 7,
-              "e": 8,
-              "p": 8,
-              "gf": 16,
-              "gc": 19,
-              "dg": -3,
-              "pts": 29
             },
             {
               "pos": 22,
