@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-07T00:12:04.814Z",
+  "actualizado": "2026-09-07T04:50:20.108Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -327,6 +327,20 @@
             },
             {
               "pos": 4,
+              "equipo": "Atlético Tucumán",
+              "equipoId": "9785",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9785.png",
+              "pj": 8,
+              "g": 3,
+              "e": 4,
+              "p": 1,
+              "gf": 6,
+              "gc": 3,
+              "dg": 3,
+              "pts": 13
+            },
+            {
+              "pos": 5,
               "equipo": "Belgrano (Córdoba)",
               "equipoId": "4",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4.png",
@@ -340,7 +354,7 @@
               "pts": 12
             },
             {
-              "pos": 5,
+              "pos": 6,
               "equipo": "Tigre",
               "equipoId": "7767",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7767.png",
@@ -354,7 +368,7 @@
               "pts": 12
             },
             {
-              "pos": 6,
+              "pos": 7,
               "equipo": "Rosario Central",
               "equipoId": "17",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
@@ -368,7 +382,7 @@
               "pts": 12
             },
             {
-              "pos": 7,
+              "pos": 8,
               "equipo": "Independiente Rivadavia",
               "equipoId": "9744",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
@@ -380,20 +394,6 @@
               "gc": 10,
               "dg": -1,
               "pts": 11
-            },
-            {
-              "pos": 8,
-              "equipo": "Atlético Tucumán",
-              "equipoId": "9785",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9785.png",
-              "pj": 7,
-              "g": 2,
-              "e": 4,
-              "p": 1,
-              "gf": 4,
-              "gc": 2,
-              "dg": 2,
-              "pts": 10
             },
             {
               "pos": 9,
@@ -484,13 +484,13 @@
               "equipo": "Racing Club",
               "equipoId": "15",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/15.png",
-              "pj": 7,
+              "pj": 8,
               "g": 1,
               "e": 2,
-              "p": 4,
-              "gf": 6,
-              "gc": 11,
-              "dg": -5,
+              "p": 5,
+              "gf": 7,
+              "gc": 13,
+              "dg": -6,
               "pts": 5
             }
           ]
@@ -795,6 +795,20 @@
             },
             {
               "pos": 22,
+              "equipo": "Atlético Tucumán",
+              "equipoId": "9785",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9785.png",
+              "pj": 24,
+              "g": 6,
+              "e": 9,
+              "p": 9,
+              "gf": 21,
+              "gc": 23,
+              "dg": -2,
+              "pts": 27
+            },
+            {
+              "pos": 23,
               "equipo": "Newell's Old Boys",
               "equipoId": "14",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
@@ -808,21 +822,21 @@
               "pts": 27
             },
             {
-              "pos": 23,
+              "pos": 24,
               "equipo": "Racing Club",
               "equipoId": "15",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/15.png",
-              "pj": 23,
+              "pj": 24,
               "g": 6,
               "e": 8,
-              "p": 9,
-              "gf": 23,
-              "gc": 26,
-              "dg": -3,
+              "p": 10,
+              "gf": 24,
+              "gc": 28,
+              "dg": -4,
               "pts": 26
             },
             {
-              "pos": 24,
+              "pos": 25,
               "equipo": "Banfield",
               "equipoId": "235",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
@@ -836,7 +850,7 @@
               "pts": 25
             },
             {
-              "pos": 25,
+              "pos": 26,
               "equipo": "Platense",
               "equipoId": "7764",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
@@ -848,20 +862,6 @@
               "gc": 27,
               "dg": -9,
               "pts": 25
-            },
-            {
-              "pos": 26,
-              "equipo": "Atlético Tucumán",
-              "equipoId": "9785",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9785.png",
-              "pj": 23,
-              "g": 5,
-              "e": 9,
-              "p": 9,
-              "gf": 19,
-              "gc": 22,
-              "dg": -3,
-              "pts": 24
             },
             {
               "pos": 27,
