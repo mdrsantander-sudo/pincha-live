@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-07T22:11:14.300Z",
+  "actualizado": "2026-09-08T00:27:59.139Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -288,14 +288,14 @@
               "equipo": "Argentinos Juniors",
               "equipoId": "3",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3.png",
-              "pj": 7,
+              "pj": 8,
               "g": 5,
-              "e": 1,
+              "e": 2,
               "p": 1,
               "gf": 12,
               "gc": 7,
               "dg": 5,
-              "pts": 16
+              "pts": 17
             },
             {
               "pos": 2,
@@ -397,6 +397,20 @@
             },
             {
               "pos": 9,
+              "equipo": "Barracas Central",
+              "equipoId": "10060",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
+              "pj": 8,
+              "g": 3,
+              "e": 2,
+              "p": 3,
+              "gf": 4,
+              "gc": 5,
+              "dg": -1,
+              "pts": 11
+            },
+            {
+              "pos": 10,
               "equipo": "River Plate",
               "equipoId": "16",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png",
@@ -410,7 +424,7 @@
               "pts": 10
             },
             {
-              "pos": 10,
+              "pos": 11,
               "equipo": "Huracán",
               "equipoId": "10",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10.png",
@@ -421,20 +435,6 @@
               "gf": 6,
               "gc": 6,
               "dg": 0,
-              "pts": 10
-            },
-            {
-              "pos": 11,
-              "equipo": "Barracas Central",
-              "equipoId": "10060",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
-              "pj": 7,
-              "g": 3,
-              "e": 1,
-              "p": 3,
-              "gf": 4,
-              "gc": 5,
-              "dg": -1,
               "pts": 10
             },
             {
@@ -501,6 +501,20 @@
           "filas": [
             {
               "pos": 1,
+              "equipo": "Argentinos Juniors",
+              "equipoId": "3",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3.png",
+              "pj": 24,
+              "g": 13,
+              "e": 7,
+              "p": 4,
+              "gf": 29,
+              "gc": 20,
+              "dg": 9,
+              "pts": 46
+            },
+            {
+              "pos": 2,
               "equipo": "Independiente Rivadavia",
               "equipoId": "9744",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
@@ -511,20 +525,6 @@
               "gf": 38,
               "gc": 25,
               "dg": 13,
-              "pts": 45
-            },
-            {
-              "pos": 2,
-              "equipo": "Argentinos Juniors",
-              "equipoId": "3",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3.png",
-              "pj": 23,
-              "g": 13,
-              "e": 6,
-              "p": 4,
-              "gf": 29,
-              "gc": 20,
-              "dg": 9,
               "pts": 45
             },
             {
@@ -739,6 +739,20 @@
             },
             {
               "pos": 18,
+              "equipo": "Barracas Central",
+              "equipoId": "10060",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
+              "pj": 24,
+              "g": 8,
+              "e": 8,
+              "p": 8,
+              "gf": 19,
+              "gc": 20,
+              "dg": -1,
+              "pts": 32
+            },
+            {
+              "pos": 19,
               "equipo": "San Lorenzo",
               "equipoId": "18",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
@@ -752,7 +766,7 @@
               "pts": 32
             },
             {
-              "pos": 19,
+              "pos": 20,
               "equipo": "Unión (Santa Fe)",
               "equipoId": "20",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
@@ -766,7 +780,7 @@
               "pts": 31
             },
             {
-              "pos": 20,
+              "pos": 21,
               "equipo": "Talleres (Córdoba)",
               "equipoId": "19",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
@@ -776,20 +790,6 @@
               "p": 9,
               "gf": 25,
               "gc": 26,
-              "dg": -1,
-              "pts": 31
-            },
-            {
-              "pos": 21,
-              "equipo": "Barracas Central",
-              "equipoId": "10060",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
-              "pj": 23,
-              "g": 8,
-              "e": 7,
-              "p": 8,
-              "gf": 19,
-              "gc": 20,
               "dg": -1,
               "pts": 31
             },
