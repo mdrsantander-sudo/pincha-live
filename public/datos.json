@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-09T09:58:41.126Z",
+  "actualizado": "2026-09-09T14:20:46.021Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -964,7 +964,7 @@
         "rival": "Platense",
         "rivalTexto": null,
         "rivalEscudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
-        "fechaHora": "2026-09-27T18:00Z",
+        "fechaHora": "2026-10-01T18:00Z",
         "estadio": null,
         "condicion": "visitante",
         "estado": "programado",
