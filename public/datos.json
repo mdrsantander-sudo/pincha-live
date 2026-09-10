@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-09T22:40:33.368Z",
+  "actualizado": "2026-09-10T00:38:31.824Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -31,7 +31,23 @@
     "resultado": "victoria",
     "fecha": "2026-08-19T00:30Z"
   },
-  "enVivo": null,
+  "enVivo": {
+    "id": "401912541",
+    "competencia": "Copa Libertadores",
+    "competenciaId": "libertadores",
+    "instancia": "Ida",
+    "rival": "Corinthians",
+    "rivalTexto": null,
+    "rivalEscudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+    "fechaHora": "2026-09-10T00:30Z",
+    "estadio": "Estadio Jorge Luis Hirschi",
+    "condicion": "local",
+    "estado": "en_vivo",
+    "golesEstudiantes": 1,
+    "golesRival": 0,
+    "minuto": "8'",
+    "periodo": "8'"
+  },
   "torneoPrincipal": "liga",
   "finalesPendientes": [
     {
@@ -1000,16 +1016,16 @@
       ],
       "nota": "Llave a doble partido: ida y vuelta. Pasa el que suma más goles entre los dos.",
       "proximo": {
-        "id": "401912541",
+        "id": "401912540",
         "competencia": "Copa Libertadores",
         "competenciaId": "libertadores",
-        "instancia": "Ida",
+        "instancia": "Vuelta",
         "rival": "Corinthians",
         "rivalTexto": null,
         "rivalEscudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-        "fechaHora": "2026-09-10T00:30Z",
-        "estadio": "Estadio Jorge Luis Hirschi",
-        "condicion": "local",
+        "fechaHora": "2026-09-17T00:30Z",
+        "estadio": "Neo Química Arena",
+        "condicion": "visitante",
         "estado": "programado",
         "golesEstudiantes": 0,
         "golesRival": 0,
