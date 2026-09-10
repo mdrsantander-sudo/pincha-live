@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-10T00:38:31.824Z",
+  "actualizado": "2026-09-10T05:16:52.401Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -24,30 +24,14 @@
   },
   "ultimoPartido": {
     "competencia": "Copa Libertadores",
-    "rival": "Universidad Católica",
-    "rivalEscudo": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
-    "golesEstudiantes": 3,
-    "golesRival": 0,
-    "resultado": "victoria",
-    "fecha": "2026-08-19T00:30Z"
-  },
-  "enVivo": {
-    "id": "401912541",
-    "competencia": "Copa Libertadores",
-    "competenciaId": "libertadores",
-    "instancia": "Ida",
     "rival": "Corinthians",
-    "rivalTexto": null,
     "rivalEscudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-    "fechaHora": "2026-09-10T00:30Z",
-    "estadio": "Estadio Jorge Luis Hirschi",
-    "condicion": "local",
-    "estado": "en_vivo",
     "golesEstudiantes": 1,
-    "golesRival": 0,
-    "minuto": "8'",
-    "periodo": "8'"
+    "golesRival": 1,
+    "resultado": "empate",
+    "fecha": "2026-09-10T00:30Z"
   },
+  "enVivo": null,
   "torneoPrincipal": "liga",
   "finalesPendientes": [
     {
@@ -997,14 +981,6 @@
       "tipo": "grupos_llave",
       "tablas": [],
       "llave": [
-        {
-          "instancia": "Ida",
-          "rival": "Corinthians",
-          "rivalTexto": null,
-          "fechaHora": "2026-09-10T00:30Z",
-          "resultado": null,
-          "estado": "pendiente"
-        },
         {
           "instancia": "Vuelta",
           "rival": "Corinthians",
