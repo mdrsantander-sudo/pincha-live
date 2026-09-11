@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-11T19:51:21.865Z",
+  "actualizado": "2026-09-11T22:14:14.960Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -69,6 +69,20 @@
           "filas": [
             {
               "pos": 1,
+              "equipo": "Vélez Sarsfield",
+              "equipoId": "21",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
+              "pj": 9,
+              "g": 4,
+              "e": 5,
+              "p": 0,
+              "gf": 12,
+              "gc": 7,
+              "dg": 5,
+              "pts": 17
+            },
+            {
+              "pos": 2,
               "equipo": "Gimnasia (Mendoza)",
               "equipoId": "11972",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
@@ -79,20 +93,6 @@
               "gf": 14,
               "gc": 7,
               "dg": 7,
-              "pts": 16
-            },
-            {
-              "pos": 2,
-              "equipo": "Vélez Sarsfield",
-              "equipoId": "21",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
-              "pj": 8,
-              "g": 4,
-              "e": 4,
-              "p": 0,
-              "gf": 11,
-              "gc": 6,
-              "dg": 5,
               "pts": 16
             },
             {
@@ -139,6 +139,20 @@
             },
             {
               "pos": 6,
+              "equipo": "Newell's Old Boys",
+              "equipoId": "14",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+              "pj": 9,
+              "g": 3,
+              "e": 4,
+              "p": 2,
+              "gf": 10,
+              "gc": 8,
+              "dg": 2,
+              "pts": 13
+            },
+            {
+              "pos": 7,
               "equipo": "Independiente",
               "equipoId": "11",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
@@ -150,20 +164,6 @@
               "gc": 6,
               "dg": 1,
               "pts": 13
-            },
-            {
-              "pos": 7,
-              "equipo": "Newell's Old Boys",
-              "equipoId": "14",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
-              "pj": 8,
-              "g": 3,
-              "e": 3,
-              "p": 2,
-              "gf": 9,
-              "gc": 7,
-              "dg": 2,
-              "pts": 12
             },
             {
               "pos": 8,
