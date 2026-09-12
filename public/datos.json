@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-11T22:14:14.960Z",
+  "actualizado": "2026-09-12T00:21:28.226Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -83,20 +83,34 @@
             },
             {
               "pos": 2,
-              "equipo": "Gimnasia (Mendoza)",
-              "equipoId": "11972",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
-              "pj": 8,
+              "equipo": "Defensa y Justicia",
+              "equipoId": "8950",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
+              "pj": 9,
               "g": 5,
-              "e": 1,
+              "e": 2,
               "p": 2,
-              "gf": 14,
-              "gc": 7,
-              "dg": 7,
-              "pts": 16
+              "gf": 11,
+              "gc": 9,
+              "dg": 2,
+              "pts": 17
             },
             {
               "pos": 3,
+              "equipo": "Gimnasia (Mendoza)",
+              "equipoId": "11972",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
+              "pj": 9,
+              "g": 5,
+              "e": 1,
+              "p": 3,
+              "gf": 14,
+              "gc": 9,
+              "dg": 5,
+              "pts": 16
+            },
+            {
+              "pos": 4,
               "equipo": "Instituto (Córdoba)",
               "equipoId": "2975",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2975.png",
@@ -108,20 +122,6 @@
               "gc": 5,
               "dg": 3,
               "pts": 16
-            },
-            {
-              "pos": 4,
-              "equipo": "Defensa y Justicia",
-              "equipoId": "8950",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
-              "pj": 8,
-              "g": 4,
-              "e": 2,
-              "p": 2,
-              "gf": 9,
-              "gc": 9,
-              "dg": 0,
-              "pts": 14
             },
             {
               "pos": 5,
@@ -532,14 +532,14 @@
               "equipo": "Vélez Sarsfield",
               "equipoId": "21",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21.png",
-              "pj": 24,
+              "pj": 25,
               "g": 11,
-              "e": 11,
+              "e": 12,
               "p": 2,
-              "gf": 29,
-              "gc": 18,
+              "gf": 30,
+              "gc": 19,
               "dg": 11,
-              "pts": 44
+              "pts": 45
             },
             {
               "pos": 4,
@@ -655,20 +655,34 @@
             },
             {
               "pos": 12,
-              "equipo": "Gimnasia (Mendoza)",
-              "equipoId": "11972",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
-              "pj": 24,
-              "g": 10,
-              "e": 5,
-              "p": 9,
-              "gf": 28,
-              "gc": 29,
+              "equipo": "Defensa y Justicia",
+              "equipoId": "8950",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
+              "pj": 25,
+              "g": 9,
+              "e": 9,
+              "p": 7,
+              "gf": 29,
+              "gc": 30,
               "dg": -1,
-              "pts": 35
+              "pts": 36
             },
             {
               "pos": 13,
+              "equipo": "Gimnasia (Mendoza)",
+              "equipoId": "11972",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11972.png",
+              "pj": 25,
+              "g": 10,
+              "e": 5,
+              "p": 10,
+              "gf": 28,
+              "gc": 31,
+              "dg": -3,
+              "pts": 35
+            },
+            {
+              "pos": 14,
               "equipo": "Unión (Santa Fe)",
               "equipoId": "20",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
@@ -682,7 +696,7 @@
               "pts": 34
             },
             {
-              "pos": 14,
+              "pos": 15,
               "equipo": "Lanús",
               "equipoId": "12",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
@@ -696,7 +710,7 @@
               "pts": 34
             },
             {
-              "pos": 15,
+              "pos": 16,
               "equipo": "Sarmiento (Junín)",
               "equipoId": "10158",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
@@ -708,20 +722,6 @@
               "gc": 32,
               "dg": -4,
               "pts": 34
-            },
-            {
-              "pos": 16,
-              "equipo": "Defensa y Justicia",
-              "equipoId": "8950",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8950.png",
-              "pj": 24,
-              "g": 8,
-              "e": 9,
-              "p": 7,
-              "gf": 27,
-              "gc": 30,
-              "dg": -3,
-              "pts": 33
             },
             {
               "pos": 17,
@@ -795,6 +795,20 @@
             },
             {
               "pos": 22,
+              "equipo": "Newell's Old Boys",
+              "equipoId": "14",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
+              "pj": 25,
+              "g": 6,
+              "e": 10,
+              "p": 9,
+              "gf": 25,
+              "gc": 35,
+              "dg": -10,
+              "pts": 28
+            },
+            {
+              "pos": 23,
               "equipo": "Atlético Tucumán",
               "equipoId": "9785",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9785.png",
@@ -805,20 +819,6 @@
               "gf": 21,
               "gc": 23,
               "dg": -2,
-              "pts": 27
-            },
-            {
-              "pos": 23,
-              "equipo": "Newell's Old Boys",
-              "equipoId": "14",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
-              "pj": 24,
-              "g": 6,
-              "e": 9,
-              "p": 9,
-              "gf": 24,
-              "gc": 34,
-              "dg": -10,
               "pts": 27
             },
             {
