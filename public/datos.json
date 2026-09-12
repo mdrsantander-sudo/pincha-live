@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-12T18:04:25.695Z",
+  "actualizado": "2026-09-12T20:29:41.522Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -31,7 +31,23 @@
     "resultado": "empate",
     "fecha": "2026-09-10T00:30Z"
   },
-  "enVivo": null,
+  "enVivo": {
+    "id": "401841554",
+    "competencia": "Liga Profesional",
+    "competenciaId": "liga",
+    "instancia": null,
+    "rival": "Platense",
+    "rivalTexto": null,
+    "rivalEscudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+    "fechaHora": "2026-09-12T17:45Z",
+    "estadio": "Estadio Jorge Luis Hirschi",
+    "condicion": "local",
+    "estado": "en_vivo",
+    "golesEstudiantes": 0,
+    "golesRival": 0,
+    "minuto": "18'",
+    "periodo": "18'"
+  },
   "torneoPrincipal": "liga",
   "finalesPendientes": [
     {
@@ -181,6 +197,20 @@
             },
             {
               "pos": 9,
+              "equipo": "Estudiantes de La Plata",
+              "equipoId": "8",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+              "pj": 9,
+              "g": 3,
+              "e": 1,
+              "p": 5,
+              "gf": 9,
+              "gc": 9,
+              "dg": 0,
+              "pts": 10
+            },
+            {
+              "pos": 10,
               "equipo": "Lanús",
               "equipoId": "12",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
@@ -194,7 +224,7 @@
               "pts": 10
             },
             {
-              "pos": 10,
+              "pos": 11,
               "equipo": "San Lorenzo",
               "equipoId": "18",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
@@ -208,7 +238,7 @@
               "pts": 10
             },
             {
-              "pos": 11,
+              "pos": 12,
               "equipo": "Deportivo Riestra",
               "equipoId": "17702",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
@@ -222,32 +252,18 @@
               "pts": 9
             },
             {
-              "pos": 12,
+              "pos": 13,
               "equipo": "Platense",
               "equipoId": "7764",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
-              "pj": 8,
+              "pj": 9,
               "g": 2,
               "e": 3,
-              "p": 3,
-              "gf": 8,
-              "gc": 12,
-              "dg": -4,
+              "p": 4,
+              "gf": 9,
+              "gc": 14,
+              "dg": -5,
               "pts": 9
-            },
-            {
-              "pos": 13,
-              "equipo": "Estudiantes de La Plata",
-              "equipoId": "8",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-              "pj": 8,
-              "g": 2,
-              "e": 1,
-              "p": 5,
-              "gf": 7,
-              "gc": 8,
-              "dg": -1,
-              "pts": 7
             },
             {
               "pos": 14,
@@ -327,6 +343,20 @@
             },
             {
               "pos": 4,
+              "equipo": "Independiente Rivadavia",
+              "equipoId": "9744",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+              "pj": 9,
+              "g": 4,
+              "e": 2,
+              "p": 3,
+              "gf": 13,
+              "gc": 13,
+              "dg": 0,
+              "pts": 14
+            },
+            {
+              "pos": 5,
               "equipo": "Atlético Tucumán",
               "equipoId": "9785",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9785.png",
@@ -340,7 +370,7 @@
               "pts": 13
             },
             {
-              "pos": 5,
+              "pos": 6,
               "equipo": "Belgrano (Córdoba)",
               "equipoId": "4",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4.png",
@@ -354,7 +384,7 @@
               "pts": 12
             },
             {
-              "pos": 6,
+              "pos": 7,
               "equipo": "Tigre",
               "equipoId": "7767",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7767.png",
@@ -368,7 +398,7 @@
               "pts": 12
             },
             {
-              "pos": 7,
+              "pos": 8,
               "equipo": "Rosario Central",
               "equipoId": "17",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
@@ -380,20 +410,6 @@
               "gc": 8,
               "dg": 1,
               "pts": 12
-            },
-            {
-              "pos": 8,
-              "equipo": "Independiente Rivadavia",
-              "equipoId": "9744",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
-              "pj": 8,
-              "g": 3,
-              "e": 2,
-              "p": 3,
-              "gf": 9,
-              "gc": 10,
-              "dg": -1,
-              "pts": 11
             },
             {
               "pos": 9,
@@ -470,13 +486,13 @@
               "equipo": "Aldosivi",
               "equipoId": "9739",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9739.png",
-              "pj": 8,
+              "pj": 9,
               "g": 1,
               "e": 2,
-              "p": 5,
-              "gf": 8,
-              "gc": 12,
-              "dg": -4,
+              "p": 6,
+              "gf": 11,
+              "gc": 16,
+              "dg": -5,
               "pts": 5
             },
             {
