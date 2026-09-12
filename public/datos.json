@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-12T00:21:28.226Z",
+  "actualizado": "2026-09-12T04:51:20.523Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -125,6 +125,20 @@
             },
             {
               "pos": 5,
+              "equipo": "Boca Juniors",
+              "equipoId": "5",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+              "pj": 9,
+              "g": 3,
+              "e": 5,
+              "p": 1,
+              "gf": 12,
+              "gc": 11,
+              "dg": 1,
+              "pts": 14
+            },
+            {
+              "pos": 6,
               "equipo": "Unión (Santa Fe)",
               "equipoId": "20",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
@@ -138,7 +152,7 @@
               "pts": 13
             },
             {
-              "pos": 6,
+              "pos": 7,
               "equipo": "Newell's Old Boys",
               "equipoId": "14",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
@@ -152,7 +166,7 @@
               "pts": 13
             },
             {
-              "pos": 7,
+              "pos": 8,
               "equipo": "Independiente",
               "equipoId": "11",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11.png",
@@ -164,20 +178,6 @@
               "gc": 6,
               "dg": 1,
               "pts": 13
-            },
-            {
-              "pos": 8,
-              "equipo": "Boca Juniors",
-              "equipoId": "5",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-              "pj": 8,
-              "g": 2,
-              "e": 5,
-              "p": 1,
-              "gf": 9,
-              "gc": 10,
-              "dg": -1,
-              "pts": 11
             },
             {
               "pos": 9,
@@ -254,13 +254,13 @@
               "equipo": "Central Córdoba (Santiago del Estero)",
               "equipoId": "11989",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
-              "pj": 8,
+              "pj": 9,
               "g": 2,
               "e": 1,
-              "p": 5,
-              "gf": 4,
-              "gc": 8,
-              "dg": -4,
+              "p": 6,
+              "gf": 5,
+              "gc": 11,
+              "dg": -6,
               "pts": 7
             },
             {
@@ -546,14 +546,14 @@
               "equipo": "Boca Juniors",
               "equipoId": "5",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
-              "pj": 24,
-              "g": 10,
+              "pj": 25,
+              "g": 11,
               "e": 11,
               "p": 3,
-              "gf": 31,
-              "gc": 19,
-              "dg": 12,
-              "pts": 41
+              "gf": 34,
+              "gc": 20,
+              "dg": 14,
+              "pts": 44
             },
             {
               "pos": 5,
@@ -868,13 +868,13 @@
               "equipo": "Central Córdoba (Santiago del Estero)",
               "equipoId": "11989",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
-              "pj": 24,
+              "pj": 25,
               "g": 6,
               "e": 5,
-              "p": 13,
-              "gf": 15,
-              "gc": 29,
-              "dg": -14,
+              "p": 14,
+              "gf": 16,
+              "gc": 32,
+              "dg": -16,
               "pts": 23
             },
             {
