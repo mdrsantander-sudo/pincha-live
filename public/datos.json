@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-13T19:38:53.029Z",
+  "actualizado": "2026-09-13T21:42:09.866Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -302,17 +302,31 @@
               "equipo": "Sarmiento (Junín)",
               "equipoId": "10158",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
-              "pj": 8,
+              "pj": 9,
               "g": 5,
-              "e": 0,
+              "e": 1,
               "p": 3,
-              "gf": 15,
-              "gc": 12,
+              "gf": 16,
+              "gc": 13,
               "dg": 3,
-              "pts": 15
+              "pts": 16
             },
             {
               "pos": 3,
+              "equipo": "Rosario Central",
+              "equipoId": "17",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+              "pj": 9,
+              "g": 4,
+              "e": 3,
+              "p": 2,
+              "gf": 10,
+              "gc": 8,
+              "dg": 2,
+              "pts": 15
+            },
+            {
+              "pos": 4,
               "equipo": "Gimnasia La Plata",
               "equipoId": "9",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9.png",
@@ -326,7 +340,7 @@
               "pts": 15
             },
             {
-              "pos": 4,
+              "pos": 5,
               "equipo": "Independiente Rivadavia",
               "equipoId": "9744",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
@@ -340,7 +354,21 @@
               "pts": 14
             },
             {
-              "pos": 5,
+              "pos": 6,
+              "equipo": "Belgrano (Córdoba)",
+              "equipoId": "4",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4.png",
+              "pj": 9,
+              "g": 3,
+              "e": 4,
+              "p": 2,
+              "gf": 9,
+              "gc": 6,
+              "dg": 3,
+              "pts": 13
+            },
+            {
+              "pos": 7,
               "equipo": "River Plate",
               "equipoId": "16",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/16.png",
@@ -354,7 +382,7 @@
               "pts": 13
             },
             {
-              "pos": 6,
+              "pos": 8,
               "equipo": "Atlético Tucumán",
               "equipoId": "9785",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9785.png",
@@ -368,44 +396,16 @@
               "pts": 13
             },
             {
-              "pos": 7,
-              "equipo": "Belgrano (Córdoba)",
-              "equipoId": "4",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4.png",
-              "pj": 8,
-              "g": 3,
-              "e": 3,
-              "p": 2,
-              "gf": 8,
-              "gc": 5,
-              "dg": 3,
-              "pts": 12
-            },
-            {
-              "pos": 8,
+              "pos": 9,
               "equipo": "Tigre",
               "equipoId": "7767",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7767.png",
-              "pj": 8,
+              "pj": 9,
               "g": 3,
               "e": 3,
-              "p": 2,
+              "p": 3,
               "gf": 7,
-              "gc": 5,
-              "dg": 2,
-              "pts": 12
-            },
-            {
-              "pos": 9,
-              "equipo": "Rosario Central",
-              "equipoId": "17",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
-              "pj": 8,
-              "g": 3,
-              "e": 3,
-              "p": 2,
-              "gf": 9,
-              "gc": 8,
+              "gc": 6,
               "dg": 1,
               "pts": 12
             },
