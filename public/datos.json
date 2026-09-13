@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-13T00:11:59.207Z",
+  "actualizado": "2026-09-13T04:55:27.337Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -142,13 +142,13 @@
               "equipo": "Unión (Santa Fe)",
               "equipoId": "20",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
-              "pj": 8,
+              "pj": 9,
               "g": 4,
               "e": 1,
-              "p": 3,
-              "gf": 15,
-              "gc": 12,
-              "dg": 3,
+              "p": 4,
+              "gf": 16,
+              "gc": 14,
+              "dg": 2,
               "pts": 13
             },
             {
@@ -251,6 +251,20 @@
             },
             {
               "pos": 14,
+              "equipo": "Talleres (Córdoba)",
+              "equipoId": "19",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
+              "pj": 9,
+              "g": 2,
+              "e": 2,
+              "p": 5,
+              "gf": 10,
+              "gc": 14,
+              "dg": -4,
+              "pts": 8
+            },
+            {
+              "pos": 15,
               "equipo": "Central Córdoba (Santiago del Estero)",
               "equipoId": "11989",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11989.png",
@@ -262,20 +276,6 @@
               "gc": 11,
               "dg": -6,
               "pts": 7
-            },
-            {
-              "pos": 15,
-              "equipo": "Talleres (Córdoba)",
-              "equipoId": "19",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
-              "pj": 8,
-              "g": 1,
-              "e": 2,
-              "p": 5,
-              "gf": 8,
-              "gc": 13,
-              "dg": -5,
-              "pts": 5
             }
           ]
         },
@@ -686,13 +686,13 @@
               "equipo": "Unión (Santa Fe)",
               "equipoId": "20",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
-              "pj": 24,
+              "pj": 25,
               "g": 9,
               "e": 7,
-              "p": 8,
-              "gf": 39,
-              "gc": 32,
-              "dg": 7,
+              "p": 9,
+              "gf": 40,
+              "gc": 34,
+              "dg": 6,
               "pts": 34
             },
             {
@@ -711,6 +711,20 @@
             },
             {
               "pos": 16,
+              "equipo": "Talleres (Córdoba)",
+              "equipoId": "19",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
+              "pj": 25,
+              "g": 9,
+              "e": 7,
+              "p": 9,
+              "gf": 27,
+              "gc": 27,
+              "dg": 0,
+              "pts": 34
+            },
+            {
+              "pos": 17,
               "equipo": "Sarmiento (Junín)",
               "equipoId": "10158",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10158.png",
@@ -724,7 +738,7 @@
               "pts": 34
             },
             {
-              "pos": 17,
+              "pos": 18,
               "equipo": "Tigre",
               "equipoId": "7767",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7767.png",
@@ -738,7 +752,7 @@
               "pts": 32
             },
             {
-              "pos": 18,
+              "pos": 19,
               "equipo": "Huracán",
               "equipoId": "10",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10.png",
@@ -752,7 +766,7 @@
               "pts": 32
             },
             {
-              "pos": 19,
+              "pos": 20,
               "equipo": "Barracas Central",
               "equipoId": "10060",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
@@ -766,7 +780,7 @@
               "pts": 32
             },
             {
-              "pos": 20,
+              "pos": 21,
               "equipo": "San Lorenzo",
               "equipoId": "18",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
@@ -778,20 +792,6 @@
               "gc": 19,
               "dg": -2,
               "pts": 32
-            },
-            {
-              "pos": 21,
-              "equipo": "Talleres (Córdoba)",
-              "equipoId": "19",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19.png",
-              "pj": 24,
-              "g": 8,
-              "e": 7,
-              "p": 9,
-              "gf": 25,
-              "gc": 26,
-              "dg": -1,
-              "pts": 31
             },
             {
               "pos": 22,
