@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-14T22:27:18.657Z",
+  "actualizado": "2026-09-15T00:49:18.003Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -153,6 +153,20 @@
             },
             {
               "pos": 7,
+              "equipo": "Lanús",
+              "equipoId": "12",
+              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+              "pj": 9,
+              "g": 4,
+              "e": 1,
+              "p": 4,
+              "gf": 11,
+              "gc": 8,
+              "dg": 3,
+              "pts": 13
+            },
+            {
+              "pos": 8,
               "equipo": "Unión (Santa Fe)",
               "equipoId": "20",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20.png",
@@ -166,7 +180,7 @@
               "pts": 13
             },
             {
-              "pos": 8,
+              "pos": 9,
               "equipo": "Newell's Old Boys",
               "equipoId": "14",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/14.png",
@@ -180,7 +194,7 @@
               "pts": 13
             },
             {
-              "pos": 9,
+              "pos": 10,
               "equipo": "San Lorenzo",
               "equipoId": "18",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18.png",
@@ -194,7 +208,7 @@
               "pts": 11
             },
             {
-              "pos": 10,
+              "pos": 11,
               "equipo": "Estudiantes de La Plata",
               "equipoId": "8",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
@@ -208,31 +222,17 @@
               "pts": 10
             },
             {
-              "pos": 11,
-              "equipo": "Lanús",
-              "equipoId": "12",
-              "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
-              "pj": 8,
-              "g": 3,
-              "e": 1,
-              "p": 4,
-              "gf": 8,
-              "gc": 8,
-              "dg": 0,
-              "pts": 10
-            },
-            {
               "pos": 12,
               "equipo": "Deportivo Riestra",
               "equipoId": "17702",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17702.png",
-              "pj": 8,
+              "pj": 9,
               "g": 2,
               "e": 3,
-              "p": 3,
+              "p": 4,
               "gf": 8,
-              "gc": 7,
-              "dg": 1,
+              "gc": 10,
+              "dg": -2,
               "pts": 9
             },
             {
@@ -428,28 +428,28 @@
               "equipo": "Barracas Central",
               "equipoId": "10060",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10060.png",
-              "pj": 8,
+              "pj": 9,
               "g": 3,
-              "e": 2,
+              "e": 3,
               "p": 3,
-              "gf": 4,
-              "gc": 5,
+              "gf": 5,
+              "gc": 6,
               "dg": -1,
-              "pts": 11
+              "pts": 12
             },
             {
               "pos": 12,
               "equipo": "Banfield",
               "equipoId": "235",
               "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/235.png",
-              "pj": 8,
+              "pj": 9,
               "g": 2,
-              "e": 1,
+              "e": 2,
               "p": 5,
-              "gf": 8,
-              "gc": 13,
+              "gf": 9,
+              "gc": 14,
               "dg": -5,
-              "pts": 7
+              "pts": 8
             },
             {
               "pos": 13,
