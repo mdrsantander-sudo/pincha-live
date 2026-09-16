@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-15T22:05:17.163Z",
+  "actualizado": "2026-09-16T00:13:42.408Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -1048,13 +1048,13 @@
     }
   ],
   "errores": [
-    "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260801-20261129&limit=400 -> HTTP 400",
-    "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard?dates=20260801-20261129&limit=400 -> HTTP 400",
-    "https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/scoreboard?dates=20260801-20261129&limit=400 -> HTTP 400"
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260802-20261130&limit=400 -> HTTP 400",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard?dates=20260802-20261130&limit=400 -> HTTP 400",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/scoreboard?dates=20260802-20261130&limit=400 -> HTTP 400"
   ],
   "faltantes": [
-    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260801-20261129&limit=400 -> HTTP 400",
-    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard?dates=20260801-20261129&limit=400 -> HTTP 400",
-    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/scoreboard?dates=20260801-20261129&limit=400 -> HTTP 400"
+    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260802-20261130&limit=400 -> HTTP 400",
+    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard?dates=20260802-20261130&limit=400 -> HTTP 400",
+    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/scoreboard?dates=20260802-20261130&limit=400 -> HTTP 400"
   ]
 }
