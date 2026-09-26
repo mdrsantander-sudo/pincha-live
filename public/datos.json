@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-09-26T14:45:47.430Z",
+  "actualizado": "2026-09-26T18:04:21.705Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
     "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png"
   },
   "proximoPartido": {
-    "competencia": "Supercopa Internacional",
-    "competenciaId": "supercopa-internacional",
+    "competencia": "Supercopa Argentina",
+    "competenciaId": "supercopa-argentina",
     "instancia": "Final",
-    "rival": "Rosario Central",
+    "rival": "Independiente Rivadavia",
     "rivalTexto": null,
-    "rivalEscudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
-    "fechaHora": "2026-09-26T15:00:00Z",
-    "fecha": "2026-09-26",
+    "rivalEscudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+    "fechaHora": "2026-11-11T15:00:00Z",
+    "fecha": "2026-11-11",
     "estadio": null,
-    "sedeTexto": "Cancha neutral, sede a confirmar",
+    "sedeTexto": "Sede tentativa: Belgrano de Córdoba, sin confirmar",
     "condicion": "neutral",
-    "estado": "programado",
+    "estado": "reprogramado",
     "horarioConfirmado": false,
-    "reprogramadaDesde": null
+    "reprogramadaDesde": "2026-07-21"
   },
   "ultimoPartido": {
     "competencia": "Copa Libertadores",
@@ -33,17 +33,6 @@
   "enVivo": null,
   "torneoPrincipal": "liga",
   "finalesPendientes": [
-    {
-      "id": "supercopa-internacional",
-      "nombre": "Supercopa Internacional",
-      "rival": "Rosario Central",
-      "fechaHora": "2026-09-26T15:00:00Z",
-      "fecha": "2026-09-26",
-      "horarioConfirmado": false,
-      "sedeTexto": "Cancha neutral, sede a confirmar",
-      "estado": "programado",
-      "reprogramadaDesde": null
-    },
     {
       "id": "supercopa-argentina",
       "nombre": "Supercopa Argentina",
