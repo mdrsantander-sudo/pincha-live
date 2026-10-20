@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-19T23:04:43.990Z",
+  "actualizado": "2026-10-20T01:44:59.975Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -1037,14 +1037,14 @@
     }
   ],
   "errores": [
-    "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260904-20270102&limit=400 -> HTTP 400",
-    "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard?dates=20260904-20270102&limit=400 -> HTTP 400",
-    "https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/scoreboard?dates=20260904-20270102&limit=400 -> HTTP 400"
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260905-20270103&limit=400 -> HTTP 400",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard?dates=20260905-20270103&limit=400 -> HTTP 400",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/scoreboard?dates=20260905-20270103&limit=400 -> HTTP 400"
   ],
   "faltantes": [
     "La Supercopa Internacional vs Rosario Central ya se jugó y sigue sin resultado. Cargalo en finales.json (estado: \"jugado\", resultado: \"2-1\").",
-    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260904-20270102&limit=400 -> HTTP 400",
-    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard?dates=20260904-20270102&limit=400 -> HTTP 400",
-    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/scoreboard?dates=20260904-20270102&limit=400 -> HTTP 400"
+    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260905-20270103&limit=400 -> HTTP 400",
+    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard?dates=20260905-20270103&limit=400 -> HTTP 400",
+    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/scoreboard?dates=20260905-20270103&limit=400 -> HTTP 400"
   ]
 }
