@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-11T07:15:21.426Z",
+  "actualizado": "2026-11-11T15:20:47.539Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -32,19 +32,7 @@
   },
   "enVivo": null,
   "torneoPrincipal": "liga",
-  "finalesPendientes": [
-    {
-      "id": "supercopa-argentina",
-      "nombre": "Supercopa Argentina",
-      "rival": "Independiente Rivadavia",
-      "fechaHora": "2026-11-11T15:00:00Z",
-      "fecha": "2026-11-11",
-      "horarioConfirmado": false,
-      "sedeTexto": "Sede tentativa: Belgrano de Córdoba, sin confirmar",
-      "estado": "reprogramado",
-      "reprogramadaDesde": "2026-07-21"
-    }
-  ],
+  "finalesPendientes": [],
   "competencias": [
     {
       "id": "liga",
