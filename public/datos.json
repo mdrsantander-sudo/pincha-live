@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-13T20:24:24.478Z",
+  "actualizado": "2026-11-14T00:57:14.175Z",
   "equipo": {
     "id": "8",
     "nombre": "Estudiantes LP",
@@ -1025,15 +1025,15 @@
     }
   ],
   "errores": [
-    "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260929-20270127&limit=400 -> HTTP 400",
-    "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard?dates=20260929-20270127&limit=400 -> HTTP 400",
-    "https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/scoreboard?dates=20260929-20270127&limit=400 -> HTTP 400"
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260930-20270128&limit=400 -> HTTP 400",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard?dates=20260930-20270128&limit=400 -> HTTP 400",
+    "https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/scoreboard?dates=20260930-20270128&limit=400 -> HTTP 400"
   ],
   "faltantes": [
     "La Supercopa Internacional vs Rosario Central ya se jugó y sigue sin resultado. Cargalo en finales.json (estado: \"jugado\", resultado: \"2-1\").",
     "La Supercopa Argentina vs Independiente Rivadavia ya se jugó y sigue sin resultado. Cargalo en finales.json (estado: \"jugado\", resultado: \"2-1\").",
-    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260929-20270127&limit=400 -> HTTP 400",
-    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard?dates=20260929-20270127&limit=400 -> HTTP 400",
-    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/scoreboard?dates=20260929-20270127&limit=400 -> HTTP 400"
+    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20260930-20270128&limit=400 -> HTTP 400",
+    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/arg.copa/scoreboard?dates=20260930-20270128&limit=400 -> HTTP 400",
+    "Endpoint caído: https://site.api.espn.com/apis/site/v2/sports/soccer/conmebol.libertadores/scoreboard?dates=20260930-20270128&limit=400 -> HTTP 400"
   ]
 }
